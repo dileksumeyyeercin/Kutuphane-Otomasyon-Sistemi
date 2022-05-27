@@ -7,17 +7,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using MySql.Data.MySqlClient;
-using MySql.Data;
 
 namespace Kutuphane_Otomasyon_Sistemi
 {
-    public partial class KitapAlma_Form : Form
+    public partial class İstatistik_Form : Form
     {
-        public KitapAlma_Form()
+        public İstatistik_Form()
         {
             InitializeComponent();
         }
-        
     }
-}    
+}

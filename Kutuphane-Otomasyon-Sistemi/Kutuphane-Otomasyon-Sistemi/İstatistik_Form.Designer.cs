@@ -1,7 +1,7 @@
 ﻿
 namespace Kutuphane_Otomasyon_Sistemi
 {
-    partial class KitapAlma_Form
+    partial class İstatistik_Form
     {
         /// <summary>
         /// Required designer variable.
@@ -29,18 +29,10 @@ namespace Kutuphane_Otomasyon_Sistemi
         /// </summary>
         private void InitializeComponent()
         {
-            this.SuspendLayout();
-            // 
-            // KitapAlma_Form
-            // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 20F);
+            this.components = new System.ComponentModel.Container();
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(573, 370);
-            this.Name = "KitapAlma_Form";
-            this.Text = "KitapAlma_Form";
-            this.ResumeLayout(false);
-
+            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Text = "İstatistik_Form";
         }
 
         #endregion

@@ -65,6 +65,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="KitapAlma_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KitapAlma_Form.Designer.cs">
+      <DependentUpon>KitapAlma_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="Kitaplar_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -91,8 +97,17 @@
     <Compile Include="Uyeler_Form.Designer.cs">
       <DependentUpon>Uyeler_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="UyeListeleme_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="UyeListeleme_Form.Designer.cs">
+      <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Anasayfa_Form.resx">
       <DependentUpon>Anasayfa_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="KitapAlma_Form.resx">
+      <DependentUpon>KitapAlma_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -103,6 +118,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="UyeListeleme_Form.resx">
+      <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
