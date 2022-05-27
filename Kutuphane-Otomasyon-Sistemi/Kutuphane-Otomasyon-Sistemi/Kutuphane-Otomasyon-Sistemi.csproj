@@ -103,6 +103,12 @@
     <Compile Include="UyeListeleme_Form.Designer.cs">
       <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="İstatistik_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İstatistik_Form.Designer.cs">
+      <DependentUpon>İstatistik_Form.cs</DependentUpon>
+    </Compile>
     <EmbeddedResource Include="Anasayfa_Form.resx">
       <DependentUpon>Anasayfa_Form.cs</DependentUpon>
     </EmbeddedResource>
@@ -120,6 +126,9 @@
     </Compile>
     <EmbeddedResource Include="UyeListeleme_Form.resx">
       <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İstatistik_Form.resx">
+      <DependentUpon>İstatistik_Form.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
