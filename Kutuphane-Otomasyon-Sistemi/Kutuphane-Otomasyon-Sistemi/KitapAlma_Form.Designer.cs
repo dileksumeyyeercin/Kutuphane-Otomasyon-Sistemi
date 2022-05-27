@@ -39,6 +39,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.ClientSize = new System.Drawing.Size(573, 370);
             this.Name = "KitapAlma_Form";
             this.Text = "KitapAlma_Form";
+            this.Load += new System.EventHandler(this.KitapAlma_Form_Load);
             this.ResumeLayout(false);
 
         }
