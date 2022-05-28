@@ -65,6 +65,12 @@
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Kategoriler_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kategoriler_Form.Designer.cs">
+      <DependentUpon>Kategoriler_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="KitapAlma_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -76,6 +82,12 @@
     </Compile>
     <Compile Include="Kitaplar_Form.Designer.cs">
       <DependentUpon>Kitaplar_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login_Form.Designer.cs">
+      <DependentUpon>Login_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Personel_Form.cs">
       <SubType>Form</SubType>
@@ -112,8 +124,14 @@
     <EmbeddedResource Include="Anasayfa_Form.resx">
       <DependentUpon>Anasayfa_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Kategoriler_Form.resx">
+      <DependentUpon>Kategoriler_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="KitapAlma_Form.resx">
       <DependentUpon>KitapAlma_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login_Form.resx">
+      <DependentUpon>Login_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

@@ -66,5 +66,10 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
 
         }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
