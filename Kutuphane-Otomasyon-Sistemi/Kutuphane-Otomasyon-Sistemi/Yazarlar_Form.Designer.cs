@@ -29,10 +29,8 @@ namespace Kutuphane_Otomasyon_Sistemi
         /// </summary>
         private void InitializeComponent()
         {
-            this.lblAd = new System.Windows.Forms.Label();
-            this.lblSoyad = new System.Windows.Forms.Label();
-            this.txtAd = new System.Windows.Forms.TextBox();
-            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.lblAdSoyad = new System.Windows.Forms.Label();
+            this.txtAdSoyad = new System.Windows.Forms.TextBox();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.btnSil = new System.Windows.Forms.Button();
             this.btnGuncelle = new System.Windows.Forms.Button();
@@ -43,47 +41,30 @@ namespace Kutuphane_Otomasyon_Sistemi
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
-            // lblAd
+            // lblAdSoyad
             // 
-            this.lblAd.AutoSize = true;
-            this.lblAd.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblAd.Location = new System.Drawing.Point(19, 83);
-            this.lblAd.Name = "lblAd";
-            this.lblAd.Size = new System.Drawing.Size(44, 24);
-            this.lblAd.TabIndex = 0;
-            this.lblAd.Text = "Ad :";
+            this.lblAdSoyad.AutoSize = true;
+            this.lblAdSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAdSoyad.Location = new System.Drawing.Point(19, 83);
+            this.lblAdSoyad.Name = "lblAdSoyad";
+            this.lblAdSoyad.Size = new System.Drawing.Size(98, 22);
+            this.lblAdSoyad.TabIndex = 0;
+            this.lblAdSoyad.Text = "Ad Soyad :";
             // 
-            // lblSoyad
+            // txtAdSoyad
             // 
-            this.lblSoyad.AutoSize = true;
-            this.lblSoyad.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.lblSoyad.Location = new System.Drawing.Point(263, 83);
-            this.lblSoyad.Name = "lblSoyad";
-            this.lblSoyad.Size = new System.Drawing.Size(73, 24);
-            this.lblSoyad.TabIndex = 1;
-            this.lblSoyad.Text = "Soyad :";
-            // 
-            // txtAd
-            // 
-            this.txtAd.Location = new System.Drawing.Point(69, 75);
-            this.txtAd.Multiline = true;
-            this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(191, 34);
-            this.txtAd.TabIndex = 2;
-            // 
-            // txtSoyad
-            // 
-            this.txtSoyad.Location = new System.Drawing.Point(342, 75);
-            this.txtSoyad.Multiline = true;
-            this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(191, 34);
-            this.txtSoyad.TabIndex = 3;
+            this.txtAdSoyad.Location = new System.Drawing.Point(123, 75);
+            this.txtAdSoyad.Multiline = true;
+            this.txtAdSoyad.Name = "txtAdSoyad";
+            this.txtAdSoyad.Size = new System.Drawing.Size(191, 34);
+            this.txtAdSoyad.TabIndex = 2;
             // 
             // dataGridView1
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(18, 177);
             this.dataGridView1.Name = "dataGridView1";
@@ -98,32 +79,35 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // btnSil
             // 
+            this.btnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSil.Location = new System.Drawing.Point(681, 130);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(90, 30);
             this.btnSil.TabIndex = 5;
             this.btnSil.Text = "Sil";
-            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.UseVisualStyleBackColor = false;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
-            this.btnGuncelle.Location = new System.Drawing.Point(571, 130);
+            this.btnGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
+            this.btnGuncelle.Location = new System.Drawing.Point(568, 130);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(90, 30);
             this.btnGuncelle.TabIndex = 6;
             this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.UseVisualStyleBackColor = false;
             this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnEkle
             // 
+            this.btnEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEkle.Location = new System.Drawing.Point(455, 130);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(90, 30);
             this.btnEkle.TabIndex = 7;
             this.btnEkle.Text = "Ekle";
-            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // txtId
@@ -141,17 +125,17 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.lblId.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblId.Location = new System.Drawing.Point(539, 83);
             this.lblId.Name = "lblId";
-            this.lblId.Size = new System.Drawing.Size(30, 24);
+            this.lblId.Size = new System.Drawing.Size(29, 22);
             this.lblId.TabIndex = 9;
             this.lblId.Text = "Id:";
             // 
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(273, 22);
+            this.label2.Font = new System.Drawing.Font("Bookman Old Style", 22.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label2.Location = new System.Drawing.Point(224, 9);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(240, 32);
+            this.label2.Size = new System.Drawing.Size(337, 44);
             this.label2.TabIndex = 11;
             this.label2.Text = "Yazarlar Bölümü";
             // 
@@ -159,6 +143,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblId);
@@ -167,10 +152,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.btnGuncelle);
             this.Controls.Add(this.btnSil);
             this.Controls.Add(this.dataGridView1);
-            this.Controls.Add(this.txtSoyad);
-            this.Controls.Add(this.txtAd);
-            this.Controls.Add(this.lblSoyad);
-            this.Controls.Add(this.lblAd);
+            this.Controls.Add(this.txtAdSoyad);
+            this.Controls.Add(this.lblAdSoyad);
             this.Name = "Yazarlar_Form";
             this.Text = "Yazarlar_Form";
             this.Load += new System.EventHandler(this.Yazarlar_Form_Load);
@@ -182,10 +165,8 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         #endregion
 
-        private System.Windows.Forms.Label lblAd;
-        private System.Windows.Forms.Label lblSoyad;
-        private System.Windows.Forms.TextBox txtAd;
-        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.Label lblAdSoyad;
+        private System.Windows.Forms.TextBox txtAdSoyad;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.Button btnSil;
         private System.Windows.Forms.Button btnGuncelle;

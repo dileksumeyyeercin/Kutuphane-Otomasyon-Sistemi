@@ -41,10 +41,9 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnEkle_Click(object sender, EventArgs e)
         {
-            string sorgu = ("INSERT INTO yazarlar (adi,soyadi) VALUES (@adi,@soyadi)");
+            string sorgu = ("INSERT INTO yazarlar (adi_soyadi) VALUES (@adi_soyadi)");
             komut = new MySqlCommand(sorgu, baglanti);
-            komut.Parameters.AddWithValue("@adi", txtAd.Text);
-            komut.Parameters.AddWithValue("@soyadi", txtSoyad.Text);
+            komut.Parameters.AddWithValue("@adi_soyadi", txtAdSoyad.Text);
             baglanti.Open();
             MessageBox.Show("Yazar Eklendi.");
             komut.ExecuteNonQuery();
@@ -54,9 +53,9 @@ namespace Kutuphane_Otomasyon_Sistemi
         
         private void btnSil_Click(object sender, EventArgs e)
         {
-            string sorgu = "DELETE FROM yazarlar WHERE adi=@adi";
+            string sorgu = "DELETE FROM yazarlar WHERE adi_soyadi=@adi_soyadi";
             komut = new MySqlCommand(sorgu, baglanti);
-            komut.Parameters.AddWithValue("@adi", Convert.ToString(txtAd.Text));
+            komut.Parameters.AddWithValue("@adi_soyadi", Convert.ToString(txtAdSoyad.Text));
             baglanti.Open();
             komut.ExecuteNonQuery();
             baglanti.Close();
@@ -65,11 +64,10 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnGuncelle_Click(object sender, EventArgs e)
         {
-            string sorgu = "UPDATE yazarlar SET adi=@adi, soyadi=@soyadi WHERE id=@id";
+            string sorgu = "UPDATE yazarlar SET adi_soyadi=@adi_soyadi WHERE id=@id";
             komut = new MySqlCommand(sorgu, baglanti);
             komut.Parameters.AddWithValue("@id", Convert.ToInt32(txtId.Text));
-            komut.Parameters.AddWithValue("@adi", txtAd.Text);
-            komut.Parameters.AddWithValue("@soyadi", txtSoyad.Text);
+            komut.Parameters.AddWithValue("@adi_soyadi", txtAdSoyad.Text);
             baglanti.Open();
             komut.ExecuteNonQuery();
             baglanti.Close();
@@ -85,8 +83,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         private void dataGridView1_CellEnter(object sender, DataGridViewCellEventArgs e)
         {
             txtId.Text = dataGridView1.CurrentRow.Cells[0].Value.ToString();
-            txtAd.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
-            txtSoyad.Text = dataGridView1.CurrentRow.Cells[2].Value.ToString();
+            txtAdSoyad.Text = dataGridView1.CurrentRow.Cells[1].Value.ToString();
 
         }
     }

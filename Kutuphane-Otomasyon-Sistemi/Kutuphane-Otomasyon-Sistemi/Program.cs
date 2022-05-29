@@ -16,7 +16,16 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            Application.Run(new Uyeler_Form());
+            Application.Run(new UyeListeleme_Form());
             Application.Run(new İstatistik_Form());
+            Application.Run(new Yazarlar_Form());
+            Application.Run(new Anasayfa_Form());
+            Application.Run(new Login_Form());
+            Application.Run(new TeslimAlma_Form());
+
+
+
         }
     }
 }

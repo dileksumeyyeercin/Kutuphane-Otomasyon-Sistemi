@@ -76,5 +76,9 @@ namespace Kutuphane_Otomasyon_Sistemi
             con.Close();
         }
 
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
     }
 }
