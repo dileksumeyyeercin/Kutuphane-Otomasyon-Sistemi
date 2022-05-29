@@ -51,16 +51,20 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
+            this.dataGridView1.AllowUserToResizeColumns = false;
+            this.dataGridView1.AllowUserToResizeRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
             this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dataGridView1.Location = new System.Drawing.Point(549, 137);
+            this.dataGridView1.Location = new System.Drawing.Point(500, 137);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
+            this.dataGridView1.RowHeadersVisible = false;
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.dataGridView1.Size = new System.Drawing.Size(636, 282);
+            this.dataGridView1.ShowEditingIcon = false;
+            this.dataGridView1.Size = new System.Drawing.Size(755, 282);
             this.dataGridView1.TabIndex = 29;
             this.dataGridView1.CellEnter += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView1_CellEnter);
             // 
@@ -97,7 +101,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label5.Location = new System.Drawing.Point(38, 377);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(58, 25);
+            this.label5.Size = new System.Drawing.Size(61, 26);
             this.label5.TabIndex = 26;
             this.label5.Text = "Şifre:";
             // 
@@ -108,7 +112,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label4.Location = new System.Drawing.Point(38, 321);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(128, 25);
+            this.label4.Size = new System.Drawing.Size(138, 26);
             this.label4.TabIndex = 25;
             this.label4.Text = "Kullanıcı Adı:";
             // 
@@ -119,7 +123,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label3.Location = new System.Drawing.Point(38, 264);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(116, 25);
+            this.label3.Size = new System.Drawing.Size(123, 26);
             this.label3.TabIndex = 24;
             this.label3.Text = "Telefon No:";
             // 
@@ -130,7 +134,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label2.Location = new System.Drawing.Point(38, 214);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 25);
+            this.label2.Size = new System.Drawing.Size(81, 26);
             this.label2.TabIndex = 23;
             this.label2.Text = "Soyadı:";
             // 
@@ -141,7 +145,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label1.Location = new System.Drawing.Point(38, 161);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(48, 25);
+            this.label1.Size = new System.Drawing.Size(50, 26);
             this.label1.TabIndex = 22;
             this.label1.Text = "Adı:";
             // 
@@ -170,7 +174,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtKadi
             // 
-            this.txtKadi.Location = new System.Drawing.Point(170, 313);
+            this.txtKadi.Location = new System.Drawing.Point(184, 312);
             this.txtKadi.Margin = new System.Windows.Forms.Padding(4);
             this.txtKadi.Multiline = true;
             this.txtKadi.Name = "txtKadi";

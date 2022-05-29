@@ -130,6 +130,9 @@
     <EmbeddedResource Include="Anasayfa_Form.resx">
       <DependentUpon>Anasayfa_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="EmanetKitaplar_Form.resx">
+      <DependentUpon>EmanetKitaplar_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kategoriler_Form.resx">
       <DependentUpon>Kategoriler_Form.cs</DependentUpon>
     </EmbeddedResource>

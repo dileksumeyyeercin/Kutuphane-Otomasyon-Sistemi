@@ -37,7 +37,7 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnTeslim_Click(object sender, EventArgs e)
         {
-            TeslimAlma_Form teslim = new TeslimAlma_Form();
+            KitapAlma_Form teslim = new KitapAlma_Form();
             teslim.ShowDialog();
         }
 
