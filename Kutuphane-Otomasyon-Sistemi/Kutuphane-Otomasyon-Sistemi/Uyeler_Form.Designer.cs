@@ -48,7 +48,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtOKulNo
             // 
-            this.txtOKulNo.Location = new System.Drawing.Point(271, 142);
+            this.txtOKulNo.Location = new System.Drawing.Point(271, 52);
             this.txtOKulNo.Margin = new System.Windows.Forms.Padding(4);
             this.txtOKulNo.Multiline = true;
             this.txtOKulNo.Name = "txtOKulNo";
@@ -62,7 +62,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label6.Location = new System.Drawing.Point(77, 280);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(87, 25);
+            this.label6.Size = new System.Drawing.Size(93, 26);
             this.label6.TabIndex = 26;
             this.label6.Text = "Cinsiyet:";
             // 
@@ -72,7 +72,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.comboBox1.Items.AddRange(new object[] {
             "Kadın",
             "Erkek"});
-            this.comboBox1.Location = new System.Drawing.Point(271, 283);
+            this.comboBox1.Location = new System.Drawing.Point(271, 282);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(162, 24);
@@ -80,7 +80,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(271, 186);
+            this.txtMail.Location = new System.Drawing.Point(271, 236);
             this.txtMail.Margin = new System.Windows.Forms.Padding(4);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
@@ -89,7 +89,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtTelefon
             // 
-            this.txtTelefon.Location = new System.Drawing.Point(271, 230);
+            this.txtTelefon.Location = new System.Drawing.Point(271, 190);
             this.txtTelefon.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefon.Multiline = true;
             this.txtTelefon.Name = "txtTelefon";
@@ -98,7 +98,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtSoyad
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(271, 51);
+            this.txtSoyad.Location = new System.Drawing.Point(271, 144);
             this.txtSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoyad.Multiline = true;
             this.txtSoyad.Name = "txtSoyad";
@@ -121,7 +121,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label5.Location = new System.Drawing.Point(77, 241);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(77, 25);
+            this.label5.Size = new System.Drawing.Size(81, 26);
             this.label5.TabIndex = 20;
             this.label5.Text = "Eposta:";
             // 
@@ -132,7 +132,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label4.Location = new System.Drawing.Point(77, 197);
             this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(116, 25);
+            this.label4.Size = new System.Drawing.Size(123, 26);
             this.label4.TabIndex = 19;
             this.label4.Text = "Telefon No:";
             // 
@@ -143,7 +143,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label3.Location = new System.Drawing.Point(77, 153);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 25);
+            this.label3.Size = new System.Drawing.Size(81, 26);
             this.label3.TabIndex = 18;
             this.label3.Text = "Soyadı:";
             // 
@@ -154,7 +154,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label2.Location = new System.Drawing.Point(77, 109);
             this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(48, 25);
+            this.label2.Size = new System.Drawing.Size(50, 26);
             this.label2.TabIndex = 17;
             this.label2.Text = "Adı:";
             // 
@@ -165,7 +165,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label1.Location = new System.Drawing.Point(77, 62);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(138, 25);
+            this.label1.Size = new System.Drawing.Size(145, 26);
             this.label1.TabIndex = 16;
             this.label1.Text = "Okul Numara:";
             // 

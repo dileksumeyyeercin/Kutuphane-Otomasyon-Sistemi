@@ -41,6 +41,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.dataGridView1.AllowUserToResizeColumns = false;
             this.dataGridView1.AllowUserToResizeRows = false;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(33, 128);
             this.dataGridView1.Name = "dataGridView1";
@@ -55,9 +56,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // lblFiltrele
             // 
             this.lblFiltrele.AutoSize = true;
-            this.lblFiltrele.Location = new System.Drawing.Point(327, 36);
+            this.lblFiltrele.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblFiltrele.Location = new System.Drawing.Point(325, 35);
             this.lblFiltrele.Name = "lblFiltrele";
-            this.lblFiltrele.Size = new System.Drawing.Size(58, 17);
+            this.lblFiltrele.Size = new System.Drawing.Size(67, 20);
             this.lblFiltrele.TabIndex = 1;
             this.lblFiltrele.Text = "Filtrele :";
             this.lblFiltrele.Click += new System.EventHandler(this.label1_Click);
@@ -65,9 +67,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // lblEmanetKitaplar
             // 
             this.lblEmanetKitaplar.AutoSize = true;
-            this.lblEmanetKitaplar.Location = new System.Drawing.Point(88, 36);
+            this.lblEmanetKitaplar.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblEmanetKitaplar.Location = new System.Drawing.Point(29, 37);
             this.lblEmanetKitaplar.Name = "lblEmanetKitaplar";
-            this.lblEmanetKitaplar.Size = new System.Drawing.Size(108, 17);
+            this.lblEmanetKitaplar.Size = new System.Drawing.Size(171, 22);
             this.lblEmanetKitaplar.TabIndex = 2;
             this.lblEmanetKitaplar.Text = "Emanet Kitaplar";
             // 
@@ -78,7 +81,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             "Tüm Kitaplar",
             "Geciken Kitaplar",
             "Gecikmeyen Kitaplar"});
-            this.comboBox1.Location = new System.Drawing.Point(412, 33);
+            this.comboBox1.Location = new System.Drawing.Point(412, 31);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(200, 24);
             this.comboBox1.TabIndex = 3;
@@ -86,18 +89,20 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // btnAra
             // 
-            this.btnAra.Location = new System.Drawing.Point(476, 79);
+            this.btnAra.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
+            this.btnAra.Location = new System.Drawing.Point(476, 77);
             this.btnAra.Name = "btnAra";
             this.btnAra.Size = new System.Drawing.Size(136, 34);
             this.btnAra.TabIndex = 4;
             this.btnAra.Text = "Arama Yap";
-            this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.UseVisualStyleBackColor = false;
             this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
             // 
             // EmanetKitaplar_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(650, 450);
             this.Controls.Add(this.btnAra);
             this.Controls.Add(this.comboBox1);
@@ -105,6 +110,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.lblFiltrele);
             this.Controls.Add(this.dataGridView1);
             this.Name = "EmanetKitaplar_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "EmanetKitaplar_Form";
             this.Load += new System.EventHandler(this.EmanetKitaplar_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

@@ -241,6 +241,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.txtAd);
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Personel_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Personel_Form";
             this.Load += new System.EventHandler(this.Personel_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

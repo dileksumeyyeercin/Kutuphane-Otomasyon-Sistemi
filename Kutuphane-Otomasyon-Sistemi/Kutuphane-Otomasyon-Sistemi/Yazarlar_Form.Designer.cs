@@ -64,6 +64,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dataGridView1.AllowUserToAddRows = false;
             this.dataGridView1.AllowUserToDeleteRows = false;
             this.dataGridView1.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.Fill;
+            this.dataGridView1.BackgroundColor = System.Drawing.Color.White;
             this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.dataGridView1.Location = new System.Drawing.Point(18, 177);
             this.dataGridView1.Name = "dataGridView1";
@@ -78,32 +79,35 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // btnSil
             // 
+            this.btnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSil.Location = new System.Drawing.Point(681, 130);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(90, 30);
             this.btnSil.TabIndex = 5;
             this.btnSil.Text = "Sil";
-            this.btnSil.UseVisualStyleBackColor = true;
+            this.btnSil.UseVisualStyleBackColor = false;
             this.btnSil.Click += new System.EventHandler(this.btnSil_Click);
             // 
             // btnGuncelle
             // 
+            this.btnGuncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnGuncelle.Location = new System.Drawing.Point(571, 130);
             this.btnGuncelle.Name = "btnGuncelle";
             this.btnGuncelle.Size = new System.Drawing.Size(90, 30);
             this.btnGuncelle.TabIndex = 6;
             this.btnGuncelle.Text = "Güncelle";
-            this.btnGuncelle.UseVisualStyleBackColor = true;
+            this.btnGuncelle.UseVisualStyleBackColor = false;
             this.btnGuncelle.Click += new System.EventHandler(this.btnGuncelle_Click);
             // 
             // btnEkle
             // 
+            this.btnEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEkle.Location = new System.Drawing.Point(455, 130);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(90, 30);
             this.btnEkle.TabIndex = 7;
             this.btnEkle.Text = "Ekle";
-            this.btnEkle.UseVisualStyleBackColor = true;
+            this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
             // txtId
@@ -139,6 +143,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.lblId);
@@ -150,6 +155,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.txtAdSoyad);
             this.Controls.Add(this.lblAdSoyad);
             this.Name = "Yazarlar_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Yazarlar_Form";
             this.Load += new System.EventHandler(this.Yazarlar_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

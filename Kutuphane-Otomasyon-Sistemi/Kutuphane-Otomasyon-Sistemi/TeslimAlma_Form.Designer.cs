@@ -83,6 +83,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.dataGridView1);
             this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "TeslimAlma_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "TeslimAlma_Form";
             this.Load += new System.EventHandler(this.TeslimAlma_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();

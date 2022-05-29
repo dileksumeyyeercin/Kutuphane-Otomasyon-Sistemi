@@ -253,6 +253,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Font = new System.Drawing.Font("Bookman Old Style", 8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.Name = "İstatistik_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "istatistik_form";
             this.Load += new System.EventHandler(this.İstatistik_Form_Load);
             this.groupBox1.ResumeLayout(false);
