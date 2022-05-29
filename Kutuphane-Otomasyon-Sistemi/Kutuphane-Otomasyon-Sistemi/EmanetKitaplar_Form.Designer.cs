@@ -29,12 +29,91 @@ namespace Kutuphane_Otomasyon_Sistemi
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
+            this.dataGridView1 = new System.Windows.Forms.DataGridView();
+            this.lblFiltrele = new System.Windows.Forms.Label();
+            this.lblEmanetKitaplar = new System.Windows.Forms.Label();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.btnAra = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
+            this.SuspendLayout();
+            // 
+            // dataGridView1
+            // 
+            this.dataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dataGridView1.Location = new System.Drawing.Point(33, 128);
+            this.dataGridView1.Name = "dataGridView1";
+            this.dataGridView1.RowHeadersWidth = 51;
+            this.dataGridView1.RowTemplate.Height = 24;
+            this.dataGridView1.Size = new System.Drawing.Size(579, 277);
+            this.dataGridView1.TabIndex = 0;
+            // 
+            // lblFiltrele
+            // 
+            this.lblFiltrele.AutoSize = true;
+            this.lblFiltrele.Location = new System.Drawing.Point(327, 36);
+            this.lblFiltrele.Name = "lblFiltrele";
+            this.lblFiltrele.Size = new System.Drawing.Size(58, 17);
+            this.lblFiltrele.TabIndex = 1;
+            this.lblFiltrele.Text = "Filtrele :";
+            this.lblFiltrele.Click += new System.EventHandler(this.label1_Click);
+            // 
+            // lblEmanetKitaplar
+            // 
+            this.lblEmanetKitaplar.AutoSize = true;
+            this.lblEmanetKitaplar.Location = new System.Drawing.Point(88, 36);
+            this.lblEmanetKitaplar.Name = "lblEmanetKitaplar";
+            this.lblEmanetKitaplar.Size = new System.Drawing.Size(108, 17);
+            this.lblEmanetKitaplar.TabIndex = 2;
+            this.lblEmanetKitaplar.Text = "Emanet Kitaplar";
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Items.AddRange(new object[] {
+            "Tüm Kitaplar",
+            "Geciken Kitaplar",
+            "Gecikmeyen Kitaplar"});
+            this.comboBox1.Location = new System.Drawing.Point(412, 33);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(200, 24);
+            this.comboBox1.TabIndex = 3;
+            this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.comboBox1_SelectedIndexChanged);
+            // 
+            // btnAra
+            // 
+            this.btnAra.Location = new System.Drawing.Point(476, 79);
+            this.btnAra.Name = "btnAra";
+            this.btnAra.Size = new System.Drawing.Size(136, 34);
+            this.btnAra.TabIndex = 4;
+            this.btnAra.Text = "Arama Yap";
+            this.btnAra.UseVisualStyleBackColor = true;
+            this.btnAra.Click += new System.EventHandler(this.btnAra_Click);
+            // 
+            // EmanetKitaplar_Form
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(650, 450);
+            this.Controls.Add(this.btnAra);
+            this.Controls.Add(this.comboBox1);
+            this.Controls.Add(this.lblEmanetKitaplar);
+            this.Controls.Add(this.lblFiltrele);
+            this.Controls.Add(this.dataGridView1);
+            this.Name = "EmanetKitaplar_Form";
             this.Text = "EmanetKitaplar_Form";
+            this.Load += new System.EventHandler(this.EmanetKitaplar_Form_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
         }
 
         #endregion
+
+        private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.Label lblFiltrele;
+        private System.Windows.Forms.Label lblEmanetKitaplar;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button btnAra;
     }
 }

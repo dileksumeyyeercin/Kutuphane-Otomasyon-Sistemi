@@ -31,7 +31,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             DataTable tablo = new DataTable();
             da.Fill(tablo);
             dataGridView1.DataSource = tablo;
-            baglanti.Close();
+            baglanti.Close();  
         }
 
         private void Yazarlar_Form_Load(object sender, EventArgs e)
