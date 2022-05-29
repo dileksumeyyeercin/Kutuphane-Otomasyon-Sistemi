@@ -151,6 +151,12 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="TeslimAlma_Form.resx">
+      <DependentUpon>TeslimAlma_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Uyeler_Form.resx">
+      <DependentUpon>Uyeler_Form.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="UyeListeleme_Form.resx">
       <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
     </EmbeddedResource>
