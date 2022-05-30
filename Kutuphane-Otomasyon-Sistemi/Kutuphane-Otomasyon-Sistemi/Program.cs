@@ -16,9 +16,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Kategoriler_Form());
-            Application.Run(new Yazarlar_Form());
-            Application.Run(new Anasayfa_Form());
+            Application.Run(new Login_Form());
             
 
 

@@ -65,7 +65,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.KullaniciAdi.Size = new System.Drawing.Size(105, 19);
             this.KullaniciAdi.TabIndex = 1;
             this.KullaniciAdi.Text = "Kullanıcı Adı:";
-            this.KullaniciAdi.Click += new System.EventHandler(this.KullaniciAdi_Click);
             // 
             // Sifre
             // 
@@ -76,7 +75,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Sifre.Size = new System.Drawing.Size(47, 19);
             this.Sifre.TabIndex = 2;
             this.Sifre.Text = "Şifre:";
-            this.Sifre.Click += new System.EventHandler(this.Sifre_Click);
             // 
             // pictureBox1
             // 
@@ -87,7 +85,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 3;
             this.pictureBox1.TabStop = false;
-            this.pictureBox1.Click += new System.EventHandler(this.pictureBox1_Click);
             // 
             // txtKullaniciAdi
             // 
@@ -96,7 +93,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtKullaniciAdi.Name = "txtKullaniciAdi";
             this.txtKullaniciAdi.Size = new System.Drawing.Size(231, 33);
             this.txtKullaniciAdi.TabIndex = 4;
-            this.txtKullaniciAdi.TextChanged += new System.EventHandler(this.txtKullaniciAdi_TextChanged);
             // 
             // txtSifre
             // 
@@ -106,7 +102,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtSifre.PasswordChar = '*';
             this.txtSifre.Size = new System.Drawing.Size(231, 33);
             this.txtSifre.TabIndex = 5;
-            this.txtSifre.TextChanged += new System.EventHandler(this.txtSifre_TextChanged);
             // 
             // pictureBox3
             // 
@@ -117,7 +112,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 7;
             this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // pictureBox2
             // 
@@ -128,7 +122,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 6;
             this.pictureBox2.TabStop = false;
-            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // KuOShG
             // 
@@ -140,7 +133,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.KuOShG.TabIndex = 8;
             this.KuOShG.Text = "KÜTÜPHANE OTOMASYON SİSTEMİNE\r\n                     HOŞ GELDİNİZ...              " +
     " ";
-            this.KuOShG.Click += new System.EventHandler(this.KuOShG_Click);
             // 
             // Login_Form
             // 
@@ -160,7 +152,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Name = "Login_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Giriş Yapınız";
-            this.Load += new System.EventHandler(this.Login_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

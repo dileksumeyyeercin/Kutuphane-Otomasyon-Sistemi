@@ -75,7 +75,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.RowTemplate.Height = 24;
             this.dataGridView1.ShowEditingIcon = false;
-            this.dataGridView1.Size = new System.Drawing.Size(795, 192);
+            this.dataGridView1.Size = new System.Drawing.Size(754, 192);
             this.dataGridView1.TabIndex = 0;
             // 
             // Column1
@@ -157,7 +157,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.ShowEditingIcon = false;
-            this.dataGridView2.Size = new System.Drawing.Size(795, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(754, 150);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
