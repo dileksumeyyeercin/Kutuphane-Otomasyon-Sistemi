@@ -23,16 +23,20 @@ namespace Kutuphane_Otomasyon_Sistemi
             string gelenSifre = txtSifre.Text;
             if (gelenAd.Equals("admin") && gelenSifre.Equals("123"))
             {
-                MessageBox.Show(text: "Başarılı");
                 Anasayfa_Form anasayfaForm = new Anasayfa_Form();
                 anasayfaForm.ShowDialog();
             }
             else
             {
                 MessageBox.Show(text: "Kullanıcı adı veya şifre hatalı!");
+
             }
 
         }
 
+        private void Login_Form_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

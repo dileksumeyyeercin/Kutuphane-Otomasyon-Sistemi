@@ -129,7 +129,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.KuOShG.Font = new System.Drawing.Font("Bookman Old Style", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.KuOShG.Location = new System.Drawing.Point(139, 9);
             this.KuOShG.Name = "KuOShG";
-            this.KuOShG.Size = new System.Drawing.Size(510, 56);
+            this.KuOShG.Size = new System.Drawing.Size(503, 56);
             this.KuOShG.TabIndex = 8;
             this.KuOShG.Text = "KÜTÜPHANE OTOMASYON SİSTEMİNE\r\n                     HOŞ GELDİNİZ...              " +
     " ";
@@ -152,6 +152,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Name = "Login_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = " Giriş Yapınız";
+            this.Load += new System.EventHandler(this.Login_Form_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();

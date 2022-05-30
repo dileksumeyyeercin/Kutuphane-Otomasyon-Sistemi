@@ -49,6 +49,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnEmanetEt = new System.Windows.Forms.Button();
             this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
             this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.label1 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).BeginInit();
             this.SuspendLayout();
@@ -68,7 +69,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(298, 30);
+            this.dataGridView1.Location = new System.Drawing.Point(306, 156);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -150,14 +151,14 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Column13,
             this.Column14,
             this.Column15});
-            this.dataGridView2.Location = new System.Drawing.Point(298, 243);
+            this.dataGridView2.Location = new System.Drawing.Point(306, 369);
             this.dataGridView2.Name = "dataGridView2";
             this.dataGridView2.ReadOnly = true;
             this.dataGridView2.RowHeadersVisible = false;
             this.dataGridView2.RowHeadersWidth = 51;
             this.dataGridView2.RowTemplate.Height = 24;
             this.dataGridView2.ShowEditingIcon = false;
-            this.dataGridView2.Size = new System.Drawing.Size(754, 150);
+            this.dataGridView2.Size = new System.Drawing.Size(754, 192);
             this.dataGridView2.TabIndex = 1;
             this.dataGridView2.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView2_CellContentClick);
             // 
@@ -246,7 +247,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnEmanetEt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEmanetEt.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEmanetEt.Location = new System.Drawing.Point(963, 446);
+            this.btnEmanetEt.Location = new System.Drawing.Point(969, 596);
             this.btnEmanetEt.Name = "btnEmanetEt";
             this.btnEmanetEt.Size = new System.Drawing.Size(130, 39);
             this.btnEmanetEt.TabIndex = 2;
@@ -259,7 +260,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dateTimePicker1.CustomFormat = "yyyy.MM.dd";
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(12, 195);
+            this.dateTimePicker1.Location = new System.Drawing.Point(59, 321);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
             this.dateTimePicker1.TabIndex = 3;
@@ -269,17 +270,29 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dateTimePicker2.CustomFormat = "yyyy.MM.dd";
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(12, 243);
+            this.dateTimePicker2.Location = new System.Drawing.Point(59, 369);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 27);
             this.dateTimePicker2.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 16.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(339, 47);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(499, 32);
+            this.label1.TabIndex = 5;
+            this.label1.Text = "KİTAP TESLİM ALMA İŞLEMLERİ";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // KitapAlma_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(1181, 531);
+            this.ClientSize = new System.Drawing.Size(1098, 497);
+            this.Controls.Add(this.label1);
             this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.dateTimePicker1);
             this.Controls.Add(this.btnEmanetEt);
@@ -294,6 +307,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView2)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -319,5 +333,6 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.DataGridViewTextBoxColumn Column13;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column14;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column15;
+        private System.Windows.Forms.Label label1;
     }
 }
