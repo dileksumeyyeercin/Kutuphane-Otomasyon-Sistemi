@@ -70,7 +70,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.lblEmanetKitaplar.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblEmanetKitaplar.Location = new System.Drawing.Point(29, 37);
             this.lblEmanetKitaplar.Name = "lblEmanetKitaplar";
-            this.lblEmanetKitaplar.Size = new System.Drawing.Size(171, 22);
+            this.lblEmanetKitaplar.Size = new System.Drawing.Size(161, 21);
             this.lblEmanetKitaplar.TabIndex = 2;
             this.lblEmanetKitaplar.Text = "Emanet Kitaplar";
             // 

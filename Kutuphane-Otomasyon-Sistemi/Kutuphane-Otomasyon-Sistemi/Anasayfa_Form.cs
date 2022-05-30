@@ -43,8 +43,8 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnEmanet_Click(object sender, EventArgs e)
         {
-            EmanetKitaplar_Form emanetKitaplar = new EmanetKitaplar_Form();
-            emanetKitaplar.ShowDialog();
+            TeslimAlma_Form teslimAlmaForm = new TeslimAlma_Form();
+            teslimAlmaForm.ShowDialog();
         }
 
         private void btnPersonelKayit_Click(object sender, EventArgs e)
