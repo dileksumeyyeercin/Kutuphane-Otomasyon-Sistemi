@@ -101,6 +101,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             komut.Parameters.AddWithValue("@cinsiyet", comboBox1.Text);
             komut.ExecuteNonQuery();
             baglanti.Close();
+            MessageBox.Show("Üye Güncellendi");
             daset.Tables["uyeler"].Clear();
             uyelistele();
             foreach (Control item in Controls)
@@ -112,11 +113,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             }
         }
 
-
-        
-
-       
-
-       
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Uyeler_Form uyeler = new Uyeler_Form();
+            uyeler.ShowDialog();
+        }
     }
 }

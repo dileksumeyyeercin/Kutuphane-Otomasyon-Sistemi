@@ -25,7 +25,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             baglanti = new MySqlConnection("SERVER=172.21.54.3;DATABASE=Lunatic;UID=Lunatic;password=B.batur1316");
             baglanti.Open();
-            da = new MySqlDataAdapter("SELECT *FROM personel ", baglanti);
+            da = new MySqlDataAdapter("SELECT id, adi, soyadi, telefon, kullanici_adi, sifre FROM personel ", baglanti);
             DataTable tablo = new DataTable();
             da.Fill(tablo);
             dataGridView1.DataSource = tablo;
