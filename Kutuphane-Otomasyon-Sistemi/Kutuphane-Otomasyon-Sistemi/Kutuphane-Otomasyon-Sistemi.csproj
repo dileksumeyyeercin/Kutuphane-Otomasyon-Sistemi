@@ -133,11 +133,17 @@
     <EmbeddedResource Include="EmanetKitaplar_Form.resx">
       <DependentUpon>EmanetKitaplar_Form.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Kategoriler_Form.resx">
       <DependentUpon>Kategoriler_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="KitapAlma_Form.resx">
       <DependentUpon>KitapAlma_Form.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kitaplar_Form.resx">
+      <DependentUpon>Kitaplar_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Login_Form.resx">
       <DependentUpon>Login_Form.cs</DependentUpon>
