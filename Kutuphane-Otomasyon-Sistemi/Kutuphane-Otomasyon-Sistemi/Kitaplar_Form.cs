@@ -40,8 +40,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             komut.Parameters.AddWithValue("@tur", txtTur.Text);
             komut.Parameters.AddWithValue("@demirBas_no", txtDemirBas.Text);
             komut.Parameters.AddWithValue("@yayinevi", txtYayinevi.Text);
-            komut.Parameters.AddWithValue("@yazar_id", comboYazar.Text);
-            komut.Parameters.AddWithValue("@kategori_id", comboKategori.Text);
+            komut.Parameters.AddWithValue("@yazar_id", comboYazar.SelectedValue.ToString());
+            komut.Parameters.AddWithValue("@kategori_id", comboKategori.SelectedValue.ToString());
             komut.Parameters.AddWithValue("@raf", txtRaf.Text);
             komut.ExecuteNonQuery();
             connection.Close();
@@ -77,7 +77,7 @@ namespace Kutuphane_Otomasyon_Sistemi
                 cmd.ExecuteNonQuery();
 
                 MessageBox.Show("Kitap Silindi", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                Kitap_Listele();
+                
 
             }
             catch (Exception ex)
@@ -105,7 +105,29 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void Kitaplar_Form_Load(object sender, EventArgs e)
         {
-          
+            #region yazarcombo
+            MySqlConnection con = new MySqlConnection("SERVER=172.21.54.3;DATABASE=Lunatic;UID=Lunatic;password=B.batur1316");
+            con.Open();
+            MySqlCommand cmd = new MySqlCommand("SELECT * FROM yazarlar ORDER BY adi_soyadi ASC", con);
+            MySqlDataAdapter daYazar = new MySqlDataAdapter(cmd);
+            DataSet dsYazar = new DataSet();
+            daYazar.Fill(dsYazar);
+            cmd.ExecuteNonQuery();
+            con.Close();
+            comboYazar.DataSource = dsYazar.Tables[0];
+            comboYazar.DisplayMember = "adi_soyadi";
+            comboYazar.ValueMember = "id";
+            #endregion
+            con.Open();
+            MySqlCommand cmdktgr = new MySqlCommand("SELECT * FROM kategori ORDER BY adi ASC", con);
+            MySqlDataAdapter daKategori = new MySqlDataAdapter(cmdktgr);
+            DataSet dsKategori = new DataSet();
+            daKategori.Fill(dsKategori);
+            cmd.ExecuteNonQuery();
+            con.Close();
+            comboKategori.DataSource = dsKategori.Tables[0];
+            comboKategori.DisplayMember = "adi";
+            comboKategori.ValueMember = "id";
         }
 
         private void txtKitapAra_TextChanged_1(object sender, EventArgs e)
@@ -141,6 +163,34 @@ namespace Kutuphane_Otomasyon_Sistemi
         private void Kitaplar_Form_Shown(object sender, EventArgs e)
         {
             Kitap_Listele();
+        }
+
+        private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0)
+            {
+                DataGridViewRow dgvRow = dataGridView1.Rows[e.RowIndex];
+                txtAdi.Text = dgvRow.Cells[1].Value.ToString();
+                txtSayfaSayisi.Text = dgvRow.Cells[2].Value.ToString();
+                txtTur.Text = dgvRow.Cells[3].Value.ToString();
+                txtDemirBas.Text = dgvRow.Cells[4].Value.ToString();
+                txtYayinevi.Text = dgvRow.Cells[5].Value.ToString();
+                comboYazar.Text = dgvRow.Cells[6].Value.ToString();
+                comboKategori.Text = dgvRow.Cells[7].Value.ToString();
+                txtRaf.Text = dgvRow.Cells[8].Value.ToString();
+
+
+            }
+        }
+
+        private void dataGridView1_MouseClick(object sender, MouseEventArgs e)
+        {
+
         }
     }
 }
