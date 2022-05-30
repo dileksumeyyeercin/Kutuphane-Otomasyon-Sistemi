@@ -53,9 +53,9 @@ namespace Kutuphane_Otomasyon_Sistemi
         
         private void btnSil_Click(object sender, EventArgs e)
         {
-            string sorgu = "DELETE FROM yazarlar WHERE adi_soyadi=@adi_soyadi";
+            string sorgu = "DELETE FROM yazarlar WHERE id=@id";
             komut = new MySqlCommand(sorgu, baglanti);
-            komut.Parameters.AddWithValue("@adi_soyadi", Convert.ToString(txtAdSoyad.Text));
+            komut.Parameters.AddWithValue("@id", Convert.ToString(txtId.Text));
             baglanti.Open();
             komut.ExecuteNonQuery();
             baglanti.Close();

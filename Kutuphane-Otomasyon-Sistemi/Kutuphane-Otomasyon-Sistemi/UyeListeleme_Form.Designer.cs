@@ -66,10 +66,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnİptal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnİptal.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnİptal.Location = new System.Drawing.Point(868, 425);
+            this.btnİptal.Location = new System.Drawing.Point(892, 425);
             this.btnİptal.Margin = new System.Windows.Forms.Padding(4);
             this.btnİptal.Name = "btnİptal";
-            this.btnİptal.Size = new System.Drawing.Size(100, 40);
+            this.btnİptal.Size = new System.Drawing.Size(165, 33);
             this.btnİptal.TabIndex = 43;
             this.btnİptal.Text = "İptal";
             this.btnİptal.UseVisualStyleBackColor = false;
@@ -82,7 +82,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnGüncelle.Location = new System.Drawing.Point(562, 425);
             this.btnGüncelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGüncelle.Name = "btnGüncelle";
-            this.btnGüncelle.Size = new System.Drawing.Size(100, 40);
+            this.btnGüncelle.Size = new System.Drawing.Size(165, 33);
             this.btnGüncelle.TabIndex = 42;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.UseVisualStyleBackColor = false;
@@ -118,7 +118,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.comboBox1.Location = new System.Drawing.Point(244, 349);
             this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(160, 24);
+            this.comboBox1.Size = new System.Drawing.Size(146, 24);
             this.comboBox1.TabIndex = 39;
             // 
             // txtMail
@@ -237,10 +237,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnSil.BackColor = System.Drawing.Color.LightCoral;
             this.btnSil.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnSil.Location = new System.Drawing.Point(715, 425);
+            this.btnSil.Location = new System.Drawing.Point(727, 425);
             this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
-            this.btnSil.Size = new System.Drawing.Size(100, 40);
+            this.btnSil.Size = new System.Drawing.Size(165, 33);
             this.btnSil.TabIndex = 46;
             this.btnSil.Text = "Sil";
             this.btnSil.UseVisualStyleBackColor = false;
