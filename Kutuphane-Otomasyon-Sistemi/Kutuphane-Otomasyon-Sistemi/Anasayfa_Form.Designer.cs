@@ -48,7 +48,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnKitaplar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnKitaplar.BackgroundImage")));
             this.btnKitaplar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnKitaplar.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnKitaplar.Location = new System.Drawing.Point(190, 204);
+            this.btnKitaplar.Location = new System.Drawing.Point(195, 236);
             this.btnKitaplar.Name = "btnKitaplar";
             this.btnKitaplar.Size = new System.Drawing.Size(185, 138);
             this.btnKitaplar.TabIndex = 10;
@@ -63,7 +63,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnUye.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUye.BackgroundImage")));
             this.btnUye.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnUye.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnUye.Location = new System.Drawing.Point(468, 204);
+            this.btnUye.Location = new System.Drawing.Point(473, 236);
             this.btnUye.Name = "btnUye";
             this.btnUye.Size = new System.Drawing.Size(185, 138);
             this.btnUye.TabIndex = 15;
@@ -77,7 +77,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnTeslim.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTeslim.BackgroundImage")));
             this.btnTeslim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnTeslim.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTeslim.Location = new System.Drawing.Point(741, 204);
+            this.btnTeslim.Location = new System.Drawing.Point(746, 236);
             this.btnTeslim.Name = "btnTeslim";
             this.btnTeslim.Size = new System.Drawing.Size(185, 138);
             this.btnTeslim.TabIndex = 16;
@@ -91,7 +91,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnEmanet.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEmanet.BackgroundImage")));
             this.btnEmanet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEmanet.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEmanet.Location = new System.Drawing.Point(190, 390);
+            this.btnEmanet.Location = new System.Drawing.Point(195, 422);
             this.btnEmanet.Name = "btnEmanet";
             this.btnEmanet.Size = new System.Drawing.Size(185, 142);
             this.btnEmanet.TabIndex = 17;
@@ -105,7 +105,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnPersonelKayit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPersonelKayit.BackgroundImage")));
             this.btnPersonelKayit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPersonelKayit.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnPersonelKayit.Location = new System.Drawing.Point(468, 390);
+            this.btnPersonelKayit.Location = new System.Drawing.Point(473, 422);
             this.btnPersonelKayit.Name = "btnPersonelKayit";
             this.btnPersonelKayit.Size = new System.Drawing.Size(185, 142);
             this.btnPersonelKayit.TabIndex = 20;
@@ -116,10 +116,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(87, 115);
+            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Location = new System.Drawing.Point(97, 123);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(917, 73);
+            this.label1.Size = new System.Drawing.Size(919, 110);
             this.label1.TabIndex = 22;
             this.label1.Text = "ULUDAĞ ÜNİVERSİTESİ\r\n İNEGÖL İŞLETME FAKÜLTESİ KÜTÜPHANE OTOMASYON SİSTEMİ";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -127,7 +127,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // pictureBox1
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(478, 9);
+            this.pictureBox1.Location = new System.Drawing.Point(485, 12);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(149, 103);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
@@ -139,7 +139,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnIstatistik.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIstatistik.BackgroundImage")));
             this.btnIstatistik.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnIstatistik.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnIstatistik.Location = new System.Drawing.Point(741, 390);
+            this.btnIstatistik.Location = new System.Drawing.Point(746, 422);
             this.btnIstatistik.Name = "btnIstatistik";
             this.btnIstatistik.Size = new System.Drawing.Size(185, 142);
             this.btnIstatistik.TabIndex = 24;
@@ -153,7 +153,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button1.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(600, 575);
+            this.button1.Location = new System.Drawing.Point(605, 607);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(185, 138);
             this.button1.TabIndex = 25;
@@ -168,7 +168,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.button2.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(324, 575);
+            this.button2.Location = new System.Drawing.Point(329, 607);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(185, 138);
             this.button2.TabIndex = 26;
@@ -183,7 +183,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(1116, 743);
+            this.ClientSize = new System.Drawing.Size(1116, 784);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnIstatistik);
