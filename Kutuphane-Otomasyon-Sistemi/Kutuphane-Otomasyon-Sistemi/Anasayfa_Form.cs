@@ -58,5 +58,17 @@ namespace Kutuphane_Otomasyon_Sistemi
             İstatistik_Form istatistikForm = new İstatistik_Form();
             istatistikForm.ShowDialog();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            Kategoriler_Form kategorilerForm = new Kategoriler_Form();
+            kategorilerForm.ShowDialog();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Yazarlar_Form yazarlarForm = new Yazarlar_Form();
+            yazarlarForm.ShowDialog();
+        }
     }
 }
