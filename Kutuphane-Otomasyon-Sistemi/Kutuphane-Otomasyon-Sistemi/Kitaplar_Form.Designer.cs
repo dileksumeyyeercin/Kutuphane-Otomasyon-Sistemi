@@ -420,6 +420,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.txtAdi);
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Kitaplar_Form";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Kitaplar_Form";
             this.Load += new System.EventHandler(this.Kitaplar_Form_Load);
             this.Shown += new System.EventHandler(this.Kitaplar_Form_Shown);
