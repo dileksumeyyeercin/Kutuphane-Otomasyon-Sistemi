@@ -103,7 +103,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(650, 450);
+            this.ClientSize = new System.Drawing.Size(786, 486);
             this.Controls.Add(this.btnAra);
             this.Controls.Add(this.comboBox1);
             this.Controls.Add(this.lblEmanetKitaplar);
