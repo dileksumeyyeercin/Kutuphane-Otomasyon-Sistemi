@@ -37,6 +37,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnPersonelKayit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnIstatistik = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -88,7 +89,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnEmanet.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEmanet.BackgroundImage")));
             this.btnEmanet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnEmanet.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEmanet.Location = new System.Drawing.Point(321, 390);
+            this.btnEmanet.Location = new System.Drawing.Point(190, 390);
             this.btnEmanet.Name = "btnEmanet";
             this.btnEmanet.Size = new System.Drawing.Size(185, 142);
             this.btnEmanet.TabIndex = 17;
@@ -102,7 +103,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnPersonelKayit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPersonelKayit.BackgroundImage")));
             this.btnPersonelKayit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btnPersonelKayit.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnPersonelKayit.Location = new System.Drawing.Point(620, 390);
+            this.btnPersonelKayit.Location = new System.Drawing.Point(468, 390);
             this.btnPersonelKayit.Name = "btnPersonelKayit";
             this.btnPersonelKayit.Size = new System.Drawing.Size(185, 142);
             this.btnPersonelKayit.TabIndex = 20;
@@ -131,12 +132,27 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.pictureBox1.TabIndex = 23;
             this.pictureBox1.TabStop = false;
             // 
+            // btnIstatistik
+            // 
+            this.btnIstatistik.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIstatistik.BackgroundImage")));
+            this.btnIstatistik.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnIstatistik.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnIstatistik.Location = new System.Drawing.Point(741, 390);
+            this.btnIstatistik.Name = "btnIstatistik";
+            this.btnIstatistik.Size = new System.Drawing.Size(185, 142);
+            this.btnIstatistik.TabIndex = 24;
+            this.btnIstatistik.Text = "İSTATİSTİK";
+            this.btnIstatistik.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnIstatistik.UseVisualStyleBackColor = true;
+            this.btnIstatistik.Click += new System.EventHandler(this.btnIstatistik_Click);
+            // 
             // Anasayfa_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(1116, 544);
+            this.Controls.Add(this.btnIstatistik);
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.btnPersonelKayit);
@@ -165,5 +181,6 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.Button btnPersonelKayit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button btnIstatistik;
     }
 }

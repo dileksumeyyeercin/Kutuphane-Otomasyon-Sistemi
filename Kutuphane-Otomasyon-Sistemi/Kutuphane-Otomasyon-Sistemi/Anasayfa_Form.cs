@@ -52,5 +52,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             Personel_Form personelForm = new Personel_Form();
             personelForm.ShowDialog();
         }
+
+        private void btnIstatistik_Click(object sender, EventArgs e)
+        {
+            İstatistik_Form istatistikForm = new İstatistik_Form();
+            istatistikForm.ShowDialog();
+        }
     }
 }
