@@ -31,15 +31,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             con.Close();
 
             con.Open();
-            MySqlCommand komut2 = new MySqlCommand("Select Count(*) from kaybolan_kitaplar", con);
-            MySqlDataReader dr2 = komut2.ExecuteReader();
-            while (dr2.Read())
-            {
-                kyblnktp_Lbl.Text = dr2[0].ToString();
-            }
-            con.Close();
-
-            con.Open();
             MySqlCommand komut3 = new MySqlCommand("Select Count(okul_no),kitap_id from kitap_alma group by kitap_id order by Count(okul_no) desc", con);
             MySqlDataReader dr3 = komut3.ExecuteReader();
             while (dr3.Read())

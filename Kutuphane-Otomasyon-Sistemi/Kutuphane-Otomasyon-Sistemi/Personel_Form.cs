@@ -55,12 +55,13 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnGüncelle_Click(object sender, EventArgs e)
         {
-            string sorgu = "UPDATE personel SET adi=@adi,soyadi=@soyadi,telefon=@telefon,sifre=@sifre WHERE id=@id";
+            string sorgu = "UPDATE personel SET adi=@adi,soyadi=@soyadi,telefon=@telefon,kullanici_adi=@kullanici_adi,sifre=@sifre WHERE id=@id";
             komut = new MySqlCommand(sorgu, baglanti);
             komut.Parameters.AddWithValue("@id", Convert.ToString(txtId.Text));
             komut.Parameters.AddWithValue("@adi", txtAd.Text);
             komut.Parameters.AddWithValue("@soyadi", txtSoyad.Text);
             komut.Parameters.AddWithValue("@telefon", txtTelefon.Text);
+            komut.Parameters.AddWithValue("@kullanici_adi", txtKadi.Text);
             komut.Parameters.AddWithValue("@sifre", txtSifre.Text);
             baglanti.Open();
             MessageBox.Show("Kullanıcı Güncellendi.");

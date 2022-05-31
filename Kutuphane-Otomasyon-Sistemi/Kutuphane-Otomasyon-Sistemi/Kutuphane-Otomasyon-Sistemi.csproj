@@ -115,12 +115,6 @@
     <Compile Include="UyeListeleme_Form.Designer.cs">
       <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
     </Compile>
-    <Compile Include="YasaklananKitaplar_Form.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="YasaklananKitaplar_Form.Designer.cs">
-      <DependentUpon>YasaklananKitaplar_Form.cs</DependentUpon>
-    </Compile>
     <Compile Include="Yazarlar_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -174,9 +168,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="UyeListeleme_Form.resx">
       <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="YasaklananKitaplar_Form.resx">
-      <DependentUpon>YasaklananKitaplar_Form.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Yazarlar_Form.resx">
       <DependentUpon>Yazarlar_Form.cs</DependentUpon>

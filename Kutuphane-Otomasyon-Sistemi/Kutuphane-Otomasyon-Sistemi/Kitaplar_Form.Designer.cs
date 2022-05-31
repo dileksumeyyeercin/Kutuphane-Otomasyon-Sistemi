@@ -343,7 +343,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnGüncelle.Location = new System.Drawing.Point(182, 385);
             this.btnGüncelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGüncelle.Name = "btnGüncelle";
-            this.btnGüncelle.Size = new System.Drawing.Size(110, 30);
+            this.btnGüncelle.Size = new System.Drawing.Size(123, 34);
             this.btnGüncelle.TabIndex = 38;
             this.btnGüncelle.Text = "Güncelle";
             this.btnGüncelle.UseVisualStyleBackColor = false;
