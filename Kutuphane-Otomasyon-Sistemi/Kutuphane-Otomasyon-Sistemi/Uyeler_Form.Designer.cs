@@ -50,7 +50,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtOKulNo.Location = new System.Drawing.Point(203, 42);
             this.txtOKulNo.Multiline = true;
             this.txtOKulNo.Name = "txtOKulNo";
-            this.txtOKulNo.Size = new System.Drawing.Size(122, 30);
+            this.txtOKulNo.Size = new System.Drawing.Size(151, 30);
             this.txtOKulNo.TabIndex = 27;
             // 
             // label6
@@ -71,7 +71,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             "Erkek"});
             this.comboBox1.Location = new System.Drawing.Point(203, 229);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(122, 21);
+            this.comboBox1.Size = new System.Drawing.Size(151, 21);
             this.comboBox1.TabIndex = 25;
             // 
             // txtMail
@@ -79,7 +79,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtMail.Location = new System.Drawing.Point(203, 192);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(122, 30);
+            this.txtMail.Size = new System.Drawing.Size(151, 30);
             this.txtMail.TabIndex = 24;
             // 
             // txtTelefon
@@ -87,7 +87,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtTelefon.Location = new System.Drawing.Point(203, 154);
             this.txtTelefon.Multiline = true;
             this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(122, 30);
+            this.txtTelefon.Size = new System.Drawing.Size(151, 30);
             this.txtTelefon.TabIndex = 23;
             // 
             // txtSoyad
@@ -95,7 +95,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtSoyad.Location = new System.Drawing.Point(203, 117);
             this.txtSoyad.Multiline = true;
             this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(122, 30);
+            this.txtSoyad.Size = new System.Drawing.Size(151, 30);
             this.txtSoyad.TabIndex = 22;
             // 
             // txtAd
@@ -103,7 +103,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtAd.Location = new System.Drawing.Point(203, 80);
             this.txtAd.Multiline = true;
             this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(122, 30);
+            this.txtAd.Size = new System.Drawing.Size(151, 30);
             this.txtAd.TabIndex = 21;
             // 
             // label5

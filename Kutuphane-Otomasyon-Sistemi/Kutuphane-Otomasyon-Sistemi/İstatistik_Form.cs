@@ -71,7 +71,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             MySqlDataReader dr6 = komut3.ExecuteReader();
             while (dr6.Read())
             {
-                oknnktp_Lb.Items.Add(dr6["okul_no"]);
+                oknnktp_Lb.Items.Add(dr6[0]);
             }
             con.Close();
         }
