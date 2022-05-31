@@ -58,5 +58,11 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             
         }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            UyeListeleme_Form uyeListeleme = new UyeListeleme_Form();
+            uyeListeleme.ShowDialog();
+        }
     }
 }

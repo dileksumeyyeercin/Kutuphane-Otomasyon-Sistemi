@@ -43,6 +43,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label1 = new System.Windows.Forms.Label();
             this.btnEkle = new System.Windows.Forms.Button();
             this.btnİptal = new System.Windows.Forms.Button();
+            this.btnUyeListeleme = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // txtOKulNo
@@ -180,12 +181,25 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnİptal.UseVisualStyleBackColor = false;
             this.btnİptal.Click += new System.EventHandler(this.btnİptal_Click);
             // 
+            // btnUyeListeleme
+            // 
+            this.btnUyeListeleme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
+            this.btnUyeListeleme.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnUyeListeleme.Location = new System.Drawing.Point(241, 359);
+            this.btnUyeListeleme.Name = "btnUyeListeleme";
+            this.btnUyeListeleme.Size = new System.Drawing.Size(138, 29);
+            this.btnUyeListeleme.TabIndex = 30;
+            this.btnUyeListeleme.Text = "Üye Listeleme";
+            this.btnUyeListeleme.UseVisualStyleBackColor = false;
+            this.btnUyeListeleme.Click += new System.EventHandler(this.button1_Click_1);
+            // 
             // Uyeler_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(486, 473);
+            this.Controls.Add(this.btnUyeListeleme);
             this.Controls.Add(this.btnİptal);
             this.Controls.Add(this.btnEkle);
             this.Controls.Add(this.txtOKulNo);
@@ -225,5 +239,6 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button btnEkle;
         private System.Windows.Forms.Button btnİptal;
+        private System.Windows.Forms.Button btnUyeListeleme;
     }
 }

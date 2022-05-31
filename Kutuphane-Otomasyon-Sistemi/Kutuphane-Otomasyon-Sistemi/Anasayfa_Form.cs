@@ -31,7 +31,7 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnUye_Click(object sender, EventArgs e)
         {
-            UyeListeleme_Form uyeler = new UyeListeleme_Form();
+            Uyeler_Form uyeler = new Uyeler_Form();
             uyeler.ShowDialog();
         }
 
