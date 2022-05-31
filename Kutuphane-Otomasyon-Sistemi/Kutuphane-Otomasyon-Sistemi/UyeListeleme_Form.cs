@@ -60,7 +60,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             baglanti.Open();
             MySqlCommand komut = new MySqlCommand("delete from uyeler where okul_no=@okul_no", baglanti);
-            komut.Parameters.AddWithValue("@okul_no", dataGridView1.CurrentRow.Cells["okul_no"].Value.ToString());
+            komut.Parameters.AddWithValue("@okul_no", dataGridView1.CurrentRow.Cells[0].Value.ToString());
             komut.ExecuteNonQuery();
             baglanti.Close();
             MessageBox.Show("Üye Silindi.");

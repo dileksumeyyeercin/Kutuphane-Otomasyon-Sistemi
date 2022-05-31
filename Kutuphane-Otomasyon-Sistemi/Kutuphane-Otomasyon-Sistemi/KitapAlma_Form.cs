@@ -118,7 +118,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             try
             {
                 cmd.ExecuteNonQuery();
-                MessageBox.Show("Emanet Verme İşelmi Başarılı", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                MessageBox.Show("Emanet Verme İşlemi Başarılı", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
 
             }
