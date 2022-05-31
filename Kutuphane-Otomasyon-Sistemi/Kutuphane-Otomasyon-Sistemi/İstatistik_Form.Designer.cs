@@ -85,7 +85,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.oknnktp_Lb.FormattingEnabled = true;
             this.oknnktp_Lb.ItemHeight = 21;
-            this.oknnktp_Lb.Location = new System.Drawing.Point(234, 169);
+            this.oknnktp_Lb.Location = new System.Drawing.Point(239, 176);
             this.oknnktp_Lb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.oknnktp_Lb.Name = "oknnktp_Lb";
             this.oknnktp_Lb.Size = new System.Drawing.Size(298, 403);
