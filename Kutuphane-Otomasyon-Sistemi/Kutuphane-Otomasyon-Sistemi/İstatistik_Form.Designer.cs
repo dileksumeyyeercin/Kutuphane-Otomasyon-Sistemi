@@ -63,7 +63,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.groupBox1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox1.Size = new System.Drawing.Size(552, 613);
+            this.groupBox1.Size = new System.Drawing.Size(552, 585);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "KİTAP";
@@ -73,22 +73,22 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label6.AutoSize = true;
             this.label6.BackColor = System.Drawing.Color.LightBlue;
-            this.label6.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label6.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label6.Location = new System.Drawing.Point(8, 169);
             this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(181, 19);
+            this.label6.Size = new System.Drawing.Size(223, 21);
             this.label6.TabIndex = 5;
             this.label6.Text = "En Çok Okunan Kitap :";
             // 
             // oknnktp_Lb
             // 
             this.oknnktp_Lb.FormattingEnabled = true;
-            this.oknnktp_Lb.ItemHeight = 18;
-            this.oknnktp_Lb.Location = new System.Drawing.Point(212, 169);
+            this.oknnktp_Lb.ItemHeight = 21;
+            this.oknnktp_Lb.Location = new System.Drawing.Point(234, 169);
             this.oknnktp_Lb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.oknnktp_Lb.Name = "oknnktp_Lb";
-            this.oknnktp_Lb.Size = new System.Drawing.Size(320, 418);
+            this.oknnktp_Lb.Size = new System.Drawing.Size(298, 403);
             this.oknnktp_Lb.TabIndex = 4;
             // 
             // kyblnktp_Lbl
@@ -99,7 +99,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.kyblnktp_Lbl.Location = new System.Drawing.Point(208, 99);
             this.kyblnktp_Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.kyblnktp_Lbl.Name = "kyblnktp_Lbl";
-            this.kyblnktp_Lbl.Size = new System.Drawing.Size(18, 19);
+            this.kyblnktp_Lbl.Size = new System.Drawing.Size(20, 20);
             this.kyblnktp_Lbl.TabIndex = 3;
             this.kyblnktp_Lbl.Text = "0";
             // 
@@ -107,11 +107,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.LightBlue;
-            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label3.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label3.Location = new System.Drawing.Point(8, 99);
             this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(181, 19);
+            this.label3.Size = new System.Drawing.Size(222, 21);
             this.label3.TabIndex = 2;
             this.label3.Text = "Kaybolan Kitap Sayısı :";
             // 
@@ -123,7 +123,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.tplmktp_Lbl.Location = new System.Drawing.Point(208, 50);
             this.tplmktp_Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tplmktp_Lbl.Name = "tplmktp_Lbl";
-            this.tplmktp_Lbl.Size = new System.Drawing.Size(18, 19);
+            this.tplmktp_Lbl.Size = new System.Drawing.Size(20, 20);
             this.tplmktp_Lbl.TabIndex = 1;
             this.tplmktp_Lbl.Text = "0";
             // 
@@ -131,11 +131,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.LightBlue;
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(8, 50);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(166, 19);
+            this.label1.Size = new System.Drawing.Size(206, 21);
             this.label1.TabIndex = 0;
             this.label1.Text = "Toplam Kitap Sayısı :";
             // 
@@ -153,7 +153,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.groupBox2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.groupBox2.Name = "groupBox2";
             this.groupBox2.Padding = new System.Windows.Forms.Padding(4, 3, 4, 3);
-            this.groupBox2.Size = new System.Drawing.Size(583, 613);
+            this.groupBox2.Size = new System.Drawing.Size(568, 585);
             this.groupBox2.TabIndex = 1;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "ÜYELER";
@@ -161,22 +161,22 @@ namespace Kutuphane_Otomasyon_Sistemi
             // okynuye_Lb
             // 
             this.okynuye_Lb.FormattingEnabled = true;
-            this.okynuye_Lb.ItemHeight = 18;
-            this.okynuye_Lb.Location = new System.Drawing.Point(243, 169);
+            this.okynuye_Lb.ItemHeight = 21;
+            this.okynuye_Lb.Location = new System.Drawing.Point(274, 176);
             this.okynuye_Lb.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
             this.okynuye_Lb.Name = "okynuye_Lb";
-            this.okynuye_Lb.Size = new System.Drawing.Size(320, 418);
+            this.okynuye_Lb.Size = new System.Drawing.Size(294, 403);
             this.okynuye_Lb.TabIndex = 6;
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.BackColor = System.Drawing.Color.LightBlue;
-            this.label10.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label10.Location = new System.Drawing.Point(8, 169);
+            this.label10.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(8, 176);
             this.label10.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(213, 19);
+            this.label10.Size = new System.Drawing.Size(262, 21);
             this.label10.TabIndex = 5;
             this.label10.Text = "En Çok Kitap Okuyan Üye :";
             // 
@@ -188,7 +188,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.tplmprsnl_Lbl.Location = new System.Drawing.Point(239, 99);
             this.tplmprsnl_Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tplmprsnl_Lbl.Name = "tplmprsnl_Lbl";
-            this.tplmprsnl_Lbl.Size = new System.Drawing.Size(18, 19);
+            this.tplmprsnl_Lbl.Size = new System.Drawing.Size(20, 20);
             this.tplmprsnl_Lbl.TabIndex = 4;
             this.tplmprsnl_Lbl.Text = "0";
             // 
@@ -196,11 +196,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label8.AutoSize = true;
             this.label8.BackColor = System.Drawing.Color.LightBlue;
-            this.label8.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label8.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label8.Location = new System.Drawing.Point(6, 99);
             this.label8.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(192, 19);
+            this.label8.Size = new System.Drawing.Size(235, 21);
             this.label8.TabIndex = 3;
             this.label8.Text = "Toplam Personel Sayısı :";
             // 
@@ -212,7 +212,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.tplmuye_Lbl.Location = new System.Drawing.Point(239, 50);
             this.tplmuye_Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.tplmuye_Lbl.Name = "tplmuye_Lbl";
-            this.tplmuye_Lbl.Size = new System.Drawing.Size(18, 19);
+            this.tplmuye_Lbl.Size = new System.Drawing.Size(20, 20);
             this.tplmuye_Lbl.TabIndex = 2;
             this.tplmuye_Lbl.Text = "0";
             // 
@@ -220,11 +220,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label5.AutoSize = true;
             this.label5.BackColor = System.Drawing.Color.LightBlue;
-            this.label5.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label5.Font = new System.Drawing.Font("Bookman Old Style", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label5.Location = new System.Drawing.Point(6, 50);
             this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(156, 19);
+            this.label5.Size = new System.Drawing.Size(191, 21);
             this.label5.TabIndex = 0;
             this.label5.Text = "Toplam Üye Sayısı :";
             // 
@@ -233,16 +233,16 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.istatistik_Lbl.AutoSize = true;
             this.istatistik_Lbl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.istatistik_Lbl.Font = new System.Drawing.Font("Bookman Old Style", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.istatistik_Lbl.Location = new System.Drawing.Point(459, 9);
+            this.istatistik_Lbl.Location = new System.Drawing.Point(432, 9);
             this.istatistik_Lbl.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.istatistik_Lbl.Name = "istatistik_Lbl";
-            this.istatistik_Lbl.Size = new System.Drawing.Size(290, 40);
+            this.istatistik_Lbl.Size = new System.Drawing.Size(351, 47);
             this.istatistik_Lbl.TabIndex = 6;
             this.istatistik_Lbl.Text = "İSTATİSTİKLER";
             // 
             // İstatistik_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(10F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
