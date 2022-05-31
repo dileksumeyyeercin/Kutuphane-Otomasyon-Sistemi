@@ -129,30 +129,21 @@ namespace Kutuphane_Otomasyon_Sistemi
             comboKategori.DisplayMember = "adi";
             comboKategori.ValueMember = "id";
         }
+        
 
         private void txtKitapAra_TextChanged_1(object sender, EventArgs e)
         {
-
+            daset.Tables["kitapLar"].Clear();
+            connection.Open();
+            MySqlDataAdapter adtr = new MySqlDataAdapter("select * from kitapLar where adi like '%" + txtKitapAra.Text + "%'", connection);
+            adtr.Fill(daset, "kitapLar");
+            dataGridView1.DataSource = daset.Tables["kitapLar"];
+            connection.Close();
         }
 
         private void txtAdi_TextChanged(object sender, EventArgs e)
         {
-            connection.Open();
-            MySqlCommand komut = new MySqlCommand("select *from kitapLar where adi like'" + txtKitapAra.Text + "'", connection);
-            MySqlDataReader read = komut.ExecuteReader();
-            while (read.Read())
-            {
-                
-                txtSayfaSayisi.Text = read["sayfa_sayisi"].ToString();
-                txtTur.Text = read["tur"].ToString();
-                txtDemirBas.Text = read["demirBas_no"].ToString();
-                txtYayinevi.Text = read["yayinevi"].ToString();
-                comboYazar.Text = read["yazar_id"].ToString();
-                comboKategori.Text = read["kategori_id"].ToString();
-                txtRaf.Text = read["raf"].ToString();
-
-            }
-            connection.Close();
+           
         }
 
         private void txtDemirBas_TextChanged(object sender, EventArgs e)
