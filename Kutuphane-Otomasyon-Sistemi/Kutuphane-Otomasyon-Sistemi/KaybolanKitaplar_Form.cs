@@ -22,7 +22,8 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void KaybolanKitaplar_Form_Load(object sender, EventArgs e)
         {
-            #region 
+            
         }
     }
 }
+

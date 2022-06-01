@@ -71,6 +71,12 @@
     <Compile Include="Kategoriler_Form.Designer.cs">
       <DependentUpon>Kategoriler_Form.cs</DependentUpon>
     </Compile>
+    <Compile Include="KaybolanKitaplar_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="KaybolanKitaplar_Form.Designer.cs">
+      <DependentUpon>KaybolanKitaplar_Form.cs</DependentUpon>
+    </Compile>
     <Compile Include="KitapAlma_Form.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -114,6 +120,12 @@
     </Compile>
     <Compile Include="UyeListeleme_Form.Designer.cs">
       <DependentUpon>UyeListeleme_Form.cs</DependentUpon>
+    </Compile>
+    <Compile Include="YasaklananKitaplar_Form.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="YasaklananKitaplar_Form.Designer.cs">
+      <DependentUpon>YasaklananKitaplar_Form.cs</DependentUpon>
     </Compile>
     <Compile Include="Yazarlar_Form.cs">
       <SubType>Form</SubType>

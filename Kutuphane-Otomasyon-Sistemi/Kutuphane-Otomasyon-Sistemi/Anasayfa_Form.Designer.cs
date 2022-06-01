@@ -40,6 +40,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnIstatistik = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.btnKaybolan = new System.Windows.Forms.Button();
+            this.btnYasaklanan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -47,7 +49,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnKitaplar.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnKitaplar.BackgroundImage")));
             this.btnKitaplar.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnKitaplar.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKitaplar.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnKitaplar.Location = new System.Drawing.Point(195, 236);
             this.btnKitaplar.Name = "btnKitaplar";
             this.btnKitaplar.Size = new System.Drawing.Size(185, 138);
@@ -62,7 +64,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnUye.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnUye.BackgroundImage")));
             this.btnUye.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnUye.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnUye.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnUye.Location = new System.Drawing.Point(473, 236);
             this.btnUye.Name = "btnUye";
             this.btnUye.Size = new System.Drawing.Size(185, 138);
@@ -76,7 +78,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnTeslim.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnTeslim.BackgroundImage")));
             this.btnTeslim.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnTeslim.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnTeslim.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnTeslim.Location = new System.Drawing.Point(746, 236);
             this.btnTeslim.Name = "btnTeslim";
             this.btnTeslim.Size = new System.Drawing.Size(185, 138);
@@ -90,7 +92,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnEmanet.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnEmanet.BackgroundImage")));
             this.btnEmanet.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnEmanet.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnEmanet.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnEmanet.Location = new System.Drawing.Point(195, 422);
             this.btnEmanet.Name = "btnEmanet";
             this.btnEmanet.Size = new System.Drawing.Size(185, 142);
@@ -104,7 +106,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnPersonelKayit.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnPersonelKayit.BackgroundImage")));
             this.btnPersonelKayit.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnPersonelKayit.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnPersonelKayit.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnPersonelKayit.Location = new System.Drawing.Point(473, 422);
             this.btnPersonelKayit.Name = "btnPersonelKayit";
             this.btnPersonelKayit.Size = new System.Drawing.Size(185, 142);
@@ -116,7 +118,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // label1
             // 
-            this.label1.Font = new System.Drawing.Font("Bookman Old Style", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.label1.Location = new System.Drawing.Point(97, 123);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(919, 110);
@@ -138,7 +140,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnIstatistik.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnIstatistik.BackgroundImage")));
             this.btnIstatistik.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnIstatistik.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnIstatistik.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnIstatistik.Location = new System.Drawing.Point(746, 422);
             this.btnIstatistik.Name = "btnIstatistik";
             this.btnIstatistik.Size = new System.Drawing.Size(185, 142);
@@ -152,8 +154,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.button1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button1.BackgroundImage")));
             this.button1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button1.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button1.Location = new System.Drawing.Point(605, 607);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button1.Location = new System.Drawing.Point(473, 607);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(185, 138);
             this.button1.TabIndex = 25;
@@ -167,8 +169,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.button2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("button2.BackgroundImage")));
             this.button2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.button2.Font = new System.Drawing.Font("Bookman Old Style", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.button2.Location = new System.Drawing.Point(329, 607);
+            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.button2.Location = new System.Drawing.Point(195, 607);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(185, 138);
             this.button2.TabIndex = 26;
@@ -178,12 +180,44 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // btnKaybolan
+            // 
+            this.btnKaybolan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnKaybolan.BackgroundImage")));
+            this.btnKaybolan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnKaybolan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnKaybolan.Location = new System.Drawing.Point(746, 607);
+            this.btnKaybolan.Name = "btnKaybolan";
+            this.btnKaybolan.Size = new System.Drawing.Size(185, 138);
+            this.btnKaybolan.TabIndex = 27;
+            this.btnKaybolan.Text = "KAYBOLAN KİTAPLAR";
+            this.btnKaybolan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnKaybolan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnKaybolan.UseVisualStyleBackColor = true;
+            this.btnKaybolan.Click += new System.EventHandler(this.btnKaybolan_Click);
+            // 
+            // btnYasaklanan
+            // 
+            this.btnYasaklanan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYasaklanan.BackgroundImage")));
+            this.btnYasaklanan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.btnYasaklanan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnYasaklanan.Location = new System.Drawing.Point(473, 781);
+            this.btnYasaklanan.Name = "btnYasaklanan";
+            this.btnYasaklanan.Size = new System.Drawing.Size(185, 138);
+            this.btnYasaklanan.TabIndex = 28;
+            this.btnYasaklanan.Text = "YASAKLANAN KİTAPLAR";
+            this.btnYasaklanan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.btnYasaklanan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
+            this.btnYasaklanan.UseVisualStyleBackColor = true;
+            this.btnYasaklanan.Click += new System.EventHandler(this.btnYasaklanan_Click);
+            // 
             // Anasayfa_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(1116, 784);
+            this.ClientSize = new System.Drawing.Size(1116, 943);
+            this.Controls.Add(this.btnYasaklanan);
+            this.Controls.Add(this.btnKaybolan);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnIstatistik);
@@ -194,7 +228,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.btnTeslim);
             this.Controls.Add(this.btnUye);
             this.Controls.Add(this.btnKitaplar);
-            this.Font = new System.Drawing.Font("Bookman Old Style", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Anasayfa_Form";
@@ -218,5 +252,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.Button btnIstatistik;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button btnKaybolan;
+        private System.Windows.Forms.Button btnYasaklanan;
     }
 }

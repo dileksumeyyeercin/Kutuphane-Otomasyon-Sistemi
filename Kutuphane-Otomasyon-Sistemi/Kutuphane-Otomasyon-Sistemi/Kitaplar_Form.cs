@@ -183,5 +183,17 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
 
         }
+
+        private void btnYazarEkle_Click(object sender, EventArgs e)
+        {
+            Yazarlar_Form yazarlarForm = new Yazarlar_Form();
+            yazarlarForm.ShowDialog();
+        }
+
+        private void btnKategoriEkle_Click(object sender, EventArgs e)
+        {
+            Kategoriler_Form kategorilerForm = new Kategoriler_Form();
+            kategorilerForm.ShowDialog();
+        }
     }
 }

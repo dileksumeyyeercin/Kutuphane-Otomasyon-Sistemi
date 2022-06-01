@@ -98,12 +98,20 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             kitapAlmaListe();
         }
+       private void teslimListele()
+        {
+            araVeGoster("SELECT `id`, `almatarihi`, `teslimtarihi`, `kitap_id`, `okul_no`, `teslimDurum` FROM `kitap_alma` WHERE okul_no LIKE '%"+txtAra.Text+"%'", dataGridView1);
+        }
 
         
 
+
+        
+
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
-         
+            teslimListele();
         }
     }
 }
