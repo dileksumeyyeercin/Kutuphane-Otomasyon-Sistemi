@@ -195,5 +195,25 @@ namespace Kutuphane_Otomasyon_Sistemi
             Kategoriler_Form kategorilerForm = new Kategoriler_Form();
             kategorilerForm.ShowDialog();
         }
+
+        private void txtYazarAdiAra_TextChanged(object sender, EventArgs e)
+        {
+            daset.Tables["kitapLar"].Clear();
+            connection.Open();
+            MySqlDataAdapter adtr = new MySqlDataAdapter("SELECT kitapLar.id,kitapLar.adi,kitapLar.sayfa_sayisi,kitapLar.tur,kitapLar.demirBas_no,kitapLar.yayinevi,yazarlar.adi_soyadi,kategori.adi,kitapLar.raf FROM kitapLar INNER JOİN kategori ON kitapLar.kategori_id = kategori.id INNER JOİN  yazarlar  ON kitapLar.yazar_id = yazarlar.id where yazarlar.adi_soyadi like '%" + txtYazarAdiAra.Text + "%'", connection);
+            adtr.Fill(daset, "kitapLar");
+            dataGridView1.DataSource = daset.Tables["kitapLar"];
+            connection.Close();
+        }
+
+        private void txtYayinEviAra_TextChanged(object sender, EventArgs e)
+        {
+            daset.Tables["kitapLar"].Clear();
+            connection.Open();
+            MySqlDataAdapter adtr = new MySqlDataAdapter("select * from kitapLar where yayinevi like '%" + txtYayinEviAra.Text + "%'", connection);
+            adtr.Fill(daset, "kitapLar");
+            dataGridView1.DataSource = daset.Tables["kitapLar"];
+            connection.Close();
+        }
     }
 }

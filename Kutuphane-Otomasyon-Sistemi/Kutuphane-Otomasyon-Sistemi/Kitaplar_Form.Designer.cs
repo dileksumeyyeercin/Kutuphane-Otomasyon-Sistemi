@@ -62,6 +62,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtTur = new System.Windows.Forms.TextBox();
             this.btnYazarEkle = new System.Windows.Forms.Button();
             this.btnKategoriEkle = new System.Windows.Forms.Button();
+            this.txtYazarAdiAra = new System.Windows.Forms.TextBox();
+            this.txtYayinEviAra = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -89,7 +93,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(96, 28);
             this.btnEkle.TabIndex = 33;
-            this.btnEkle.Text = "Ekle";
+            this.btnEkle.Text = "Kitap Ekle";
             this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
@@ -394,12 +398,50 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnKategoriEkle.UseVisualStyleBackColor = false;
             this.btnKategoriEkle.Click += new System.EventHandler(this.btnKategoriEkle_Click);
             // 
+            // txtYazarAdiAra
+            // 
+            this.txtYazarAdiAra.Location = new System.Drawing.Point(577, 49);
+            this.txtYazarAdiAra.Name = "txtYazarAdiAra";
+            this.txtYazarAdiAra.Size = new System.Drawing.Size(100, 20);
+            this.txtYazarAdiAra.TabIndex = 45;
+            this.txtYazarAdiAra.TextChanged += new System.EventHandler(this.txtYazarAdiAra_TextChanged);
+            // 
+            // txtYayinEviAra
+            // 
+            this.txtYayinEviAra.Location = new System.Drawing.Point(700, 49);
+            this.txtYayinEviAra.Name = "txtYayinEviAra";
+            this.txtYayinEviAra.Size = new System.Drawing.Size(100, 20);
+            this.txtYayinEviAra.TabIndex = 46;
+            this.txtYayinEviAra.TextChanged += new System.EventHandler(this.txtYayinEviAra_TextChanged);
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(595, 30);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(52, 13);
+            this.label10.TabIndex = 47;
+            this.label10.Text = "YazarADI";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(736, 30);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(51, 13);
+            this.label11.TabIndex = 48;
+            this.label11.Text = "Yayın Evi";
+            // 
             // Kitaplar_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(903, 450);
+            this.Controls.Add(this.label11);
+            this.Controls.Add(this.label10);
+            this.Controls.Add(this.txtYayinEviAra);
+            this.Controls.Add(this.txtYazarAdiAra);
             this.Controls.Add(this.btnKategoriEkle);
             this.Controls.Add(this.btnYazarEkle);
             this.Controls.Add(this.txtTur);
@@ -470,5 +512,9 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.TextBox txtTur;
         private System.Windows.Forms.Button btnYazarEkle;
         private System.Windows.Forms.Button btnKategoriEkle;
+        private System.Windows.Forms.TextBox txtYazarAdiAra;
+        private System.Windows.Forms.TextBox txtYayinEviAra;
+        private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.Label label11;
     }
 }
