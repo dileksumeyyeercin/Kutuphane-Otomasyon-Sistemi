@@ -25,11 +25,12 @@ namespace Kutuphane_Otomasyon_Sistemi
         void KategoriGetir()
         {
             baglanti = new MySqlConnection("SERVER=172.21.54.3;DATABASE=Lunatic;UID=Lunatic;password=B.batur1316");
+
             baglanti.Open();
-            da = new MySqlDataAdapter("SELECT *FROM kategori ", baglanti);
-            DataTable tablo = new DataTable();
-            da.Fill(tablo);
-            dataGridView1.DataSource = tablo;
+
+            MySqlDataAdapter adtr = new MySqlDataAdapter("select *from kategori", baglanti);
+            adtr.Fill(daset, "kategori");
+            dataGridView1.DataSource = daset.Tables["kategori"];
             baglanti.Close();
         }
 
@@ -70,6 +71,17 @@ namespace Kutuphane_Otomasyon_Sistemi
         private void label2_Click(object sender, EventArgs e)
         {
 
+        }
+        DataSet daset = new DataSet();
+
+        private void txtAra_TextChanged(object sender, EventArgs e)
+        {
+            daset.Tables["kategori"].Clear();
+            baglanti.Open();
+            MySqlDataAdapter adtr = new MySqlDataAdapter("select *from kategori where adi like '%" + txtAra.Text + "%'", baglanti);
+            adtr.Fill(daset, "kategori");
+            dataGridView1.DataSource = daset.Tables["kategori"];
+            baglanti.Close();
         }
     }
 }

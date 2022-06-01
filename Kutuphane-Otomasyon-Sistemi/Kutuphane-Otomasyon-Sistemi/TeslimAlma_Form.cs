@@ -98,5 +98,12 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             kitapAlmaListe();
         }
+
+        
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+         
+        }
     }
 }

@@ -249,7 +249,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnEmanetEt.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEmanetEt.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEmanetEt.Location = new System.Drawing.Point(893, 340);
+            this.btnEmanetEt.Location = new System.Drawing.Point(896, 394);
             this.btnEmanetEt.Name = "btnEmanetEt";
             this.btnEmanetEt.Size = new System.Drawing.Size(130, 39);
             this.btnEmanetEt.TabIndex = 2;
@@ -262,7 +262,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dateTimePicker1.CustomFormat = "yyyy.MM.dd";
             this.dateTimePicker1.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dateTimePicker1.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker1.Location = new System.Drawing.Point(871, 177);
+            this.dateTimePicker1.Location = new System.Drawing.Point(862, 254);
             this.dateTimePicker1.Name = "dateTimePicker1";
             this.dateTimePicker1.Size = new System.Drawing.Size(200, 27);
             this.dateTimePicker1.TabIndex = 3;
@@ -272,7 +272,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.dateTimePicker2.CustomFormat = "yyyy.MM.dd";
             this.dateTimePicker2.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.dateTimePicker2.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.dateTimePicker2.Location = new System.Drawing.Point(871, 266);
+            this.dateTimePicker2.Location = new System.Drawing.Point(862, 343);
             this.dateTimePicker2.Name = "dateTimePicker2";
             this.dateTimePicker2.Size = new System.Drawing.Size(200, 27);
             this.dateTimePicker2.TabIndex = 4;
@@ -292,7 +292,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(868, 240);
+            this.label2.Location = new System.Drawing.Point(859, 317);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(170, 23);
             this.label2.TabIndex = 6;
@@ -302,7 +302,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(868, 151);
+            this.label3.Location = new System.Drawing.Point(859, 228);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(170, 23);
             this.label3.TabIndex = 7;

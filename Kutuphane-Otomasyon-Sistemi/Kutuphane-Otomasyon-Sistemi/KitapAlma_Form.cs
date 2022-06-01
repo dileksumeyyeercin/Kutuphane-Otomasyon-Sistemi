@@ -18,7 +18,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             InitializeComponent();
         }
-      
+        DataSet daset = new DataSet();
         private void KitapAlma_Form_Load(object sender, EventArgs e)
         {
            
@@ -130,6 +130,8 @@ namespace Kutuphane_Otomasyon_Sistemi
 
             con.Close();
         }
+
+       
     }
     }
 

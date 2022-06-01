@@ -38,6 +38,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Column6 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.btnTeslimAl = new System.Windows.Forms.Button();
             this.btniptal = new System.Windows.Forms.Button();
+            this.txtAra = new System.Windows.Forms.TextBox();
+            this.lblAra = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -56,7 +58,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Column4,
             this.Column5,
             this.Column6});
-            this.dataGridView1.Location = new System.Drawing.Point(151, 82);
+            this.dataGridView1.Location = new System.Drawing.Point(156, 90);
             this.dataGridView1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
@@ -125,7 +127,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnTeslimAl.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnTeslimAl.Font = new System.Drawing.Font("Bookman Old Style", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnTeslimAl.Location = new System.Drawing.Point(414, 435);
+            this.btnTeslimAl.Location = new System.Drawing.Point(419, 443);
             this.btnTeslimAl.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btnTeslimAl.Name = "btnTeslimAl";
             this.btnTeslimAl.Size = new System.Drawing.Size(215, 43);
@@ -139,7 +141,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btniptal.BackColor = System.Drawing.Color.LightCoral;
             this.btniptal.Font = new System.Drawing.Font("Bookman Old Style", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btniptal.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
-            this.btniptal.Location = new System.Drawing.Point(700, 435);
+            this.btniptal.Location = new System.Drawing.Point(705, 443);
             this.btniptal.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.btniptal.Name = "btniptal";
             this.btniptal.Size = new System.Drawing.Size(215, 43);
@@ -148,12 +150,33 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btniptal.UseVisualStyleBackColor = false;
             this.btniptal.Click += new System.EventHandler(this.btniptal_Click_1);
             // 
+            // txtAra
+            // 
+            this.txtAra.Location = new System.Drawing.Point(705, 36);
+            this.txtAra.Multiline = true;
+            this.txtAra.Name = "txtAra";
+            this.txtAra.Size = new System.Drawing.Size(215, 33);
+            this.txtAra.TabIndex = 3;
+            this.txtAra.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
+            // 
+            // lblAra
+            // 
+            this.lblAra.AutoSize = true;
+            this.lblAra.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.lblAra.Location = new System.Drawing.Point(624, 43);
+            this.lblAra.Name = "lblAra";
+            this.lblAra.Size = new System.Drawing.Size(56, 26);
+            this.lblAra.TabIndex = 4;
+            this.lblAra.Text = "Ara :";
+            // 
             // TeslimAlma_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(1061, 510);
+            this.Controls.Add(this.lblAra);
+            this.Controls.Add(this.txtAra);
             this.Controls.Add(this.btniptal);
             this.Controls.Add(this.btnTeslimAl);
             this.Controls.Add(this.dataGridView1);
@@ -165,6 +188,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Shown += new System.EventHandler(this.TeslimAlma_Form_Shown);
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -179,5 +203,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column6;
+        private System.Windows.Forms.TextBox txtAra;
+        private System.Windows.Forms.Label lblAra;
     }
 }
