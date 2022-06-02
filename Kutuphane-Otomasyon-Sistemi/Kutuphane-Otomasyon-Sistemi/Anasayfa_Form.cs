@@ -70,5 +70,17 @@ namespace Kutuphane_Otomasyon_Sistemi
             Yazarlar_Form yazarlarForm = new Yazarlar_Form();
             yazarlarForm.ShowDialog();
         }
+
+        private void btnKaybolan_Click(object sender, EventArgs e)
+        {
+            KaybolanKitaplar_Form kaybolanKitaplar = new KaybolanKitaplar_Form();
+            kaybolanKitaplar.ShowDialog();
+        }
+
+        private void btnYasaklanan_Click(object sender, EventArgs e)
+        {
+            YasaklananKitaplar_Form yasaklananKitaplar = new YasaklananKitaplar_Form();
+            yasaklananKitaplar.ShowDialog();
+        }
     }
 }
