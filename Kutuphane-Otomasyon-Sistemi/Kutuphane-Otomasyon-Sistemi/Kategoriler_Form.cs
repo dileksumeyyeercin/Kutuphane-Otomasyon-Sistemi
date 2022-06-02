@@ -53,14 +53,14 @@ namespace Kutuphane_Otomasyon_Sistemi
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            string sorgu = ("DELETE FROM kategori WHERE adi=@adi");
+            string sorgu = ("DELETE FROM kategori WHERE id=@id");
             komut = new MySqlCommand(sorgu, baglanti);
-            komut.Parameters.AddWithValue("@adi", (txtAdi.Text));
             baglanti.Open();
-            MessageBox.Show(" Silindi.");
+            komut.Parameters.AddWithValue("@id", dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            MessageBox.Show("Silindi.");
             komut.ExecuteNonQuery();
             baglanti.Close();
-            KategoriGetir();
+           
         }
 
         private void dataGridView1_CellBeginEdit(object sender, DataGridViewCellCancelEventArgs e)
