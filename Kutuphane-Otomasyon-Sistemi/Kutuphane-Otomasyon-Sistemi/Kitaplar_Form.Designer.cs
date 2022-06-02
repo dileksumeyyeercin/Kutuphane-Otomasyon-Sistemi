@@ -72,7 +72,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // comboKategori
             // 
             this.comboKategori.FormattingEnabled = true;
-            this.comboKategori.Location = new System.Drawing.Point(130, 247);
+            this.comboKategori.Location = new System.Drawing.Point(130, 274);
             this.comboKategori.Name = "comboKategori";
             this.comboKategori.Size = new System.Drawing.Size(100, 21);
             this.comboKategori.TabIndex = 36;
@@ -80,7 +80,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // comboYazar
             // 
             this.comboYazar.FormattingEnabled = true;
-            this.comboYazar.Location = new System.Drawing.Point(130, 214);
+            this.comboYazar.Location = new System.Drawing.Point(130, 241);
             this.comboYazar.Name = "comboYazar";
             this.comboYazar.Size = new System.Drawing.Size(100, 21);
             this.comboYazar.TabIndex = 35;
@@ -89,7 +89,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEkle.Location = new System.Drawing.Point(530, 333);
+            this.btnEkle.Location = new System.Drawing.Point(529, 355);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(96, 28);
             this.btnEkle.TabIndex = 33;
@@ -99,21 +99,21 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtRaf
             // 
-            this.txtRaf.Location = new System.Drawing.Point(130, 282);
+            this.txtRaf.Location = new System.Drawing.Point(130, 309);
             this.txtRaf.Name = "txtRaf";
             this.txtRaf.Size = new System.Drawing.Size(100, 20);
             this.txtRaf.TabIndex = 32;
             // 
             // txtYayinevi
             // 
-            this.txtYayinevi.Location = new System.Drawing.Point(130, 185);
+            this.txtYayinevi.Location = new System.Drawing.Point(130, 212);
             this.txtYayinevi.Name = "txtYayinevi";
             this.txtYayinevi.Size = new System.Drawing.Size(100, 20);
             this.txtYayinevi.TabIndex = 31;
             // 
             // txtDemirBas
             // 
-            this.txtDemirBas.Location = new System.Drawing.Point(130, 153);
+            this.txtDemirBas.Location = new System.Drawing.Point(130, 180);
             this.txtDemirBas.Name = "txtDemirBas";
             this.txtDemirBas.Size = new System.Drawing.Size(100, 20);
             this.txtDemirBas.TabIndex = 30;
@@ -123,7 +123,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label8.Location = new System.Drawing.Point(82, 282);
+            this.label8.Location = new System.Drawing.Point(82, 309);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(34, 20);
             this.label8.TabIndex = 29;
@@ -133,7 +133,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label7.Location = new System.Drawing.Point(50, 247);
+            this.label7.Location = new System.Drawing.Point(50, 274);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 20);
             this.label7.TabIndex = 28;
@@ -143,7 +143,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(70, 214);
+            this.label6.Location = new System.Drawing.Point(70, 241);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(48, 20);
             this.label6.TabIndex = 27;
@@ -153,7 +153,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(49, 185);
+            this.label5.Location = new System.Drawing.Point(49, 212);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(71, 20);
             this.label5.TabIndex = 26;
@@ -163,7 +163,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(21, 153);
+            this.label4.Location = new System.Drawing.Point(21, 180);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(100, 20);
             this.label4.TabIndex = 25;
@@ -171,7 +171,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtSayfaSayisi
             // 
-            this.txtSayfaSayisi.Location = new System.Drawing.Point(130, 90);
+            this.txtSayfaSayisi.Location = new System.Drawing.Point(130, 117);
             this.txtSayfaSayisi.Name = "txtSayfaSayisi";
             this.txtSayfaSayisi.Size = new System.Drawing.Size(100, 20);
             this.txtSayfaSayisi.TabIndex = 24;
@@ -180,7 +180,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(82, 124);
+            this.label3.Location = new System.Drawing.Point(82, 151);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(34, 20);
             this.label3.TabIndex = 23;
@@ -190,7 +190,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(32, 90);
+            this.label2.Location = new System.Drawing.Point(32, 117);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(89, 20);
             this.label2.TabIndex = 22;
@@ -200,7 +200,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(81, 60);
+            this.label1.Location = new System.Drawing.Point(81, 87);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(35, 20);
             this.label1.TabIndex = 21;
@@ -208,7 +208,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtAdi
             // 
-            this.txtAdi.Location = new System.Drawing.Point(130, 60);
+            this.txtAdi.Location = new System.Drawing.Point(130, 87);
             this.txtAdi.Name = "txtAdi";
             this.txtAdi.Size = new System.Drawing.Size(100, 20);
             this.txtAdi.TabIndex = 20;
@@ -232,7 +232,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Column7,
             this.Column8,
             this.Column9});
-            this.dataGridView1.Location = new System.Drawing.Point(280, 83);
+            this.dataGridView1.Location = new System.Drawing.Point(280, 117);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.ReadOnly = true;
             this.dataGridView1.RowHeadersVisible = false;
@@ -329,7 +329,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnGüncelle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnGüncelle.Location = new System.Drawing.Point(136, 313);
+            this.btnGüncelle.Location = new System.Drawing.Point(138, 344);
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.Size = new System.Drawing.Size(92, 28);
             this.btnGüncelle.TabIndex = 38;
@@ -341,7 +341,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSil.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSil.Location = new System.Drawing.Point(643, 333);
+            this.btnSil.Location = new System.Drawing.Point(644, 355);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(96, 28);
             this.btnSil.TabIndex = 39;
@@ -351,7 +351,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtKitapAra
             // 
-            this.txtKitapAra.Location = new System.Drawing.Point(454, 49);
+            this.txtKitapAra.Location = new System.Drawing.Point(441, 87);
             this.txtKitapAra.Name = "txtKitapAra";
             this.txtKitapAra.Size = new System.Drawing.Size(100, 20);
             this.txtKitapAra.TabIndex = 40;
@@ -361,7 +361,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label9.Location = new System.Drawing.Point(346, 47);
+            this.label9.Location = new System.Drawing.Point(440, 53);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(101, 20);
             this.label9.TabIndex = 41;
@@ -369,7 +369,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtTur
             // 
-            this.txtTur.Location = new System.Drawing.Point(130, 124);
+            this.txtTur.Location = new System.Drawing.Point(130, 151);
             this.txtTur.Name = "txtTur";
             this.txtTur.Size = new System.Drawing.Size(100, 20);
             this.txtTur.TabIndex = 42;
@@ -378,7 +378,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnYazarEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnYazarEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnYazarEkle.Location = new System.Drawing.Point(280, 333);
+            this.btnYazarEkle.Location = new System.Drawing.Point(280, 355);
             this.btnYazarEkle.Name = "btnYazarEkle";
             this.btnYazarEkle.Size = new System.Drawing.Size(96, 28);
             this.btnYazarEkle.TabIndex = 43;
@@ -390,7 +390,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnKategoriEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnKategoriEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnKategoriEkle.Location = new System.Drawing.Point(392, 333);
+            this.btnKategoriEkle.Location = new System.Drawing.Point(391, 355);
             this.btnKategoriEkle.Name = "btnKategoriEkle";
             this.btnKategoriEkle.Size = new System.Drawing.Size(122, 28);
             this.btnKategoriEkle.TabIndex = 44;
@@ -400,7 +400,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtYazarAdiAra
             // 
-            this.txtYazarAdiAra.Location = new System.Drawing.Point(577, 49);
+            this.txtYazarAdiAra.Location = new System.Drawing.Point(567, 87);
             this.txtYazarAdiAra.Name = "txtYazarAdiAra";
             this.txtYazarAdiAra.Size = new System.Drawing.Size(100, 20);
             this.txtYazarAdiAra.TabIndex = 45;
@@ -408,7 +408,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtYayinEviAra
             // 
-            this.txtYayinEviAra.Location = new System.Drawing.Point(700, 49);
+            this.txtYayinEviAra.Location = new System.Drawing.Point(693, 87);
             this.txtYayinEviAra.Name = "txtYayinEviAra";
             this.txtYayinEviAra.Size = new System.Drawing.Size(100, 20);
             this.txtYayinEviAra.TabIndex = 46;
@@ -417,20 +417,22 @@ namespace Kutuphane_Otomasyon_Sistemi
             // label10
             // 
             this.label10.AutoSize = true;
-            this.label10.Location = new System.Drawing.Point(595, 30);
+            this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label10.Location = new System.Drawing.Point(594, 54);
             this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(52, 13);
+            this.label10.Size = new System.Drawing.Size(73, 19);
             this.label10.TabIndex = 47;
-            this.label10.Text = "YazarADI";
+            this.label10.Text = "Yazar Adı :";
             // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(736, 30);
+            this.label11.Font = new System.Drawing.Font("Microsoft YaHei UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.label11.Location = new System.Drawing.Point(711, 53);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(51, 13);
+            this.label11.Size = new System.Drawing.Size(70, 19);
             this.label11.TabIndex = 48;
-            this.label11.Text = "Yayın Evi";
+            this.label11.Text = "Yayın Evi :";
             // 
             // Kitaplar_Form
             // 

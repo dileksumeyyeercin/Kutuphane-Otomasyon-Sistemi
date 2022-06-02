@@ -41,7 +41,6 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnKaybolan = new System.Windows.Forms.Button();
-            this.btnYasaklanan = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -195,28 +194,12 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnKaybolan.UseVisualStyleBackColor = true;
             this.btnKaybolan.Click += new System.EventHandler(this.btnKaybolan_Click);
             // 
-            // btnYasaklanan
-            // 
-            this.btnYasaklanan.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("btnYasaklanan.BackgroundImage")));
-            this.btnYasaklanan.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.btnYasaklanan.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnYasaklanan.Location = new System.Drawing.Point(473, 781);
-            this.btnYasaklanan.Name = "btnYasaklanan";
-            this.btnYasaklanan.Size = new System.Drawing.Size(185, 138);
-            this.btnYasaklanan.TabIndex = 28;
-            this.btnYasaklanan.Text = "YASAKLANAN KİTAPLAR";
-            this.btnYasaklanan.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
-            this.btnYasaklanan.TextImageRelation = System.Windows.Forms.TextImageRelation.ImageAboveText;
-            this.btnYasaklanan.UseVisualStyleBackColor = true;
-            this.btnYasaklanan.Click += new System.EventHandler(this.btnYasaklanan_Click);
-            // 
             // Anasayfa_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(1116, 943);
-            this.Controls.Add(this.btnYasaklanan);
             this.Controls.Add(this.btnKaybolan);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -253,6 +236,5 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnKaybolan;
-        private System.Windows.Forms.Button btnYasaklanan;
     }
 }
