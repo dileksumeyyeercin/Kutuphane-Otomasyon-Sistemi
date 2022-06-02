@@ -64,6 +64,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.txtYazarAra = new System.Windows.Forms.TextBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
+            this.btnYazarEkle = new System.Windows.Forms.Button();
+            this.btnKategoriEkle = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -87,11 +89,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnEkle.Location = new System.Drawing.Point(529, 333);
+            this.btnEkle.Location = new System.Drawing.Point(571, 333);
             this.btnEkle.Name = "btnEkle";
             this.btnEkle.Size = new System.Drawing.Size(96, 29);
             this.btnEkle.TabIndex = 33;
-            this.btnEkle.Text = "Ekle";
+            this.btnEkle.Text = "Kitap Ekle";
             this.btnEkle.UseVisualStyleBackColor = false;
             this.btnEkle.Click += new System.EventHandler(this.btnEkle_Click);
             // 
@@ -339,7 +341,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnSil.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnSil.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnSil.Location = new System.Drawing.Point(643, 333);
+            this.btnSil.Location = new System.Drawing.Point(673, 333);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(96, 29);
             this.btnSil.TabIndex = 39;
@@ -408,12 +410,38 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label11.TabIndex = 46;
             this.label11.Text = "Yazar Adı Ara:";
             // 
+            // btnYazarEkle
+            // 
+            this.btnYazarEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
+            this.btnYazarEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnYazarEkle.Location = new System.Drawing.Point(469, 333);
+            this.btnYazarEkle.Name = "btnYazarEkle";
+            this.btnYazarEkle.Size = new System.Drawing.Size(96, 29);
+            this.btnYazarEkle.TabIndex = 47;
+            this.btnYazarEkle.Text = "Yazar Ekle";
+            this.btnYazarEkle.UseVisualStyleBackColor = false;
+            this.btnYazarEkle.Click += new System.EventHandler(this.btnYazarEkle_Click_1);
+            // 
+            // btnKategoriEkle
+            // 
+            this.btnKategoriEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
+            this.btnKategoriEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnKategoriEkle.Location = new System.Drawing.Point(346, 333);
+            this.btnKategoriEkle.Name = "btnKategoriEkle";
+            this.btnKategoriEkle.Size = new System.Drawing.Size(109, 29);
+            this.btnKategoriEkle.TabIndex = 48;
+            this.btnKategoriEkle.Text = "Kategori Ekle";
+            this.btnKategoriEkle.UseVisualStyleBackColor = false;
+            this.btnKategoriEkle.Click += new System.EventHandler(this.btnKategoriEkle_Click_1);
+            // 
             // Kitaplar_Form
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(903, 450);
+            this.Controls.Add(this.btnKategoriEkle);
+            this.Controls.Add(this.btnYazarEkle);
             this.Controls.Add(this.label11);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.txtYazarAra);
@@ -488,5 +516,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.TextBox txtYazarAra;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label11;
+        private System.Windows.Forms.Button btnYazarEkle;
+        private System.Windows.Forms.Button btnKategoriEkle;
     }
 }

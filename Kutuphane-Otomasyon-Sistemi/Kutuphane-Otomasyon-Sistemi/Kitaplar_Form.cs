@@ -92,7 +92,8 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             daset.Tables["kitapLar"].Clear();
             connection.Open();
-            MySqlDataAdapter adtr = new MySqlDataAdapter("select *from kitapLar where adi like '%" + txtAdi.Text + "%'", connection);
+            MySqlDataAdapter adtr = new MySqlDataAdapter("SELECT kitapLar.id,kitapLar.adi,kitapLar.sayfa_sayisi,kitapLar.tur,kitapLar.demirBas_no,kitapLar.yayinevi,yazarlar.adi_soyadi,kategori.adi,kitapLar.raf FROM kitapLar INNER JOİN kategori ON kitapLar.kategori_id = kategori.id INNER JOİN  yazarlar  ON kitapLar.yazar_id = yazarlar.id where adi like '%" + txtYayineviAra.Text + "%'", connection);
+
             adtr.Fill(daset, "kitapLar");
             dataGridView1.DataSource = daset.Tables["kitapLar"];
             connection.Close();
@@ -234,6 +235,18 @@ namespace Kutuphane_Otomasyon_Sistemi
             adtr.Fill(daset, "kitapLar");
             dataGridView1.DataSource = daset.Tables["kitapLar"];
             connection.Close();
+        }
+
+        private void btnYazarEkle_Click_1(object sender, EventArgs e)
+        {
+            Yazarlar_Form yazarlarForm = new Yazarlar_Form();
+            yazarlarForm.ShowDialog();
+        }
+
+        private void btnKategoriEkle_Click_1(object sender, EventArgs e)
+        {
+            Kategoriler_Form kategorilerForm = new Kategoriler_Form();
+            kategorilerForm.ShowDialog();
         }
     }
 }
