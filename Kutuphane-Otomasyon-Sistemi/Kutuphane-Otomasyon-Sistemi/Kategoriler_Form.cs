@@ -83,5 +83,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             dataGridView1.DataSource = daset.Tables["kategori"];
             baglanti.Close();
         }
+
+        private void txtAdi_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
