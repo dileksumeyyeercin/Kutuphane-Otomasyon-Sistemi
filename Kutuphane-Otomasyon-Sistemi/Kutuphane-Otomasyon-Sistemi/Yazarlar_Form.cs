@@ -57,6 +57,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             komut = new MySqlCommand(sorgu, baglanti);
             komut.Parameters.AddWithValue("@id", Convert.ToString(txtId.Text));
             baglanti.Open();
+            MessageBox.Show("Silindi");
             komut.ExecuteNonQuery();
             baglanti.Close();
             YazarGetir();
