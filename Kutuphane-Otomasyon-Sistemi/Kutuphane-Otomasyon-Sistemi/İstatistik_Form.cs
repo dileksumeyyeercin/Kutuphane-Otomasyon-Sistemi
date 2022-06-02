@@ -31,12 +31,19 @@ namespace Kutuphane_Otomasyon_Sistemi
             con.Close();
 
             con.Open();
-            MySqlCommand komut3 = new MySqlCommand("Select Count(okul_no),kitap_id from kitap_alma group by kitap_id order by Count(okul_no) desc", con);
-            MySqlDataReader dr3 = komut3.ExecuteReader();
-            while (dr3.Read())
+            MySqlCommand komut2 = new MySqlCommand("Select Count(*) from kitap_alma", con);
+            MySqlDataReader dr2 = komut2.ExecuteReader();
+            while (dr2.Read())
             {
-                oknnktp_Lb.Items.Add(dr3["kitap_id"]);
+                emntktp_lbl.Text = dr2[0].ToString();
             }
+            con.Close();
+
+            con.Open();
+            MySqlDataAdapter komut3 = new MySqlDataAdapter("select kitapLar.adi from kitap_alma inner join kitapLar on kitap_alma.kitap_id = kitapLar.id GROUP BY kitap_alma.kitap_id ORDER BY Count(kitap_id) desc limit 8", con);
+            DataTable dt = new DataTable();
+            komut3.Fill(dt);
+            encokokunan_dgv.DataSource = dt;
             con.Close();
 
             con.Open();
@@ -58,18 +65,22 @@ namespace Kutuphane_Otomasyon_Sistemi
             con.Close();
 
             con.Open();
-            MySqlCommand komut6 = new MySqlCommand("Select Count(okul_no),okul_no from kitap_alma group by okul_no order by Count(okul_no) desc", con);
-            MySqlDataReader dr6 = komut3.ExecuteReader();
-            while (dr6.Read())
-            {
-                oknnktp_Lb.Items.Add(dr6[0]);
-            }
+            MySqlDataAdapter komut6 = new MySqlDataAdapter("select kitapLar.tur from kitap_alma inner join kitapLar on kitap_alma.kitap_id = kitapLar.id GROUP BY kitap_alma.kitap_id ORDER BY Count(kitap_id) desc limit 1", con);
+            DataTable dt2 = new DataTable();
+            komut6.Fill(dt2);
+            encokokunanktpturu_dgv.DataSource = dt2;
+            con.Close();
+
+            con.Open();
+            MySqlDataAdapter komut7 = new MySqlDataAdapter("select yazarlar.adi_soyadi from kitap_alma inner join yazarlar on kitap_alma.kitap_id = yazarlar.id GROUP BY kitap_alma.kitap_id ORDER BY Count(kitap_id) desc limit 2", con);
+            DataTable dt3 = new DataTable();
+            komut7.Fill(dt3);
+
+            encokokunanyzr_dgv.DataSource = dt3;
             con.Close();
         }
 
-        private void groupBox1_Enter(object sender, EventArgs e)
-        {
 
-        }
+       
     }
 }
