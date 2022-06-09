@@ -91,7 +91,7 @@ Datagridview üzerinde personellerin tutulduğu, silindiği, eklendiği bölüm.
 
 ## İSTATİSTİKLER
 
-İçerisinde en çol okunan kitapların, yazarların ve kategorinin tutulduğu bölüm.
+İçerisinde en çol okunan kitapların, yazarların ve kitap türünün tutulduğu bölüm.
 
 ![istatistikler](https://user-images.githubusercontent.com/77639600/171625828-a2ef3c3a-3b2f-45f6-9afc-ddd08fe1c7b8.png)
 
