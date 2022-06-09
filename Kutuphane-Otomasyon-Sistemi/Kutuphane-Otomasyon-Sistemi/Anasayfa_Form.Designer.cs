@@ -197,11 +197,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(876, 48);
+            this.button3.Location = new System.Drawing.Point(897, 45);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(106, 67);
+            this.button3.Size = new System.Drawing.Size(119, 51);
             this.button3.TabIndex = 28;
-            this.button3.Text = "button3";
+            this.button3.Text = "Öğrenci İşleri";
             this.button3.UseVisualStyleBackColor = true;
             this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
