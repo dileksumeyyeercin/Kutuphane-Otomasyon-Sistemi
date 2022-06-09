@@ -51,6 +51,7 @@ namespace Kutuphane_Otomasyon_Sistemi
                     item.Text = "";
                 }
             }
+
             
         }
 

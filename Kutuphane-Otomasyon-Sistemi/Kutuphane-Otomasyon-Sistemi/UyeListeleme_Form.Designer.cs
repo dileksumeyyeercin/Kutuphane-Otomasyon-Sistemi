@@ -69,7 +69,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Column5,
             this.Column6});
             this.dataGridView1.Location = new System.Drawing.Point(437, 139);
-            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.dataGridView1.Margin = new System.Windows.Forms.Padding(4);
             this.dataGridView1.Name = "dataGridView1";
             this.dataGridView1.RowHeadersWidth = 51;
             this.dataGridView1.Size = new System.Drawing.Size(872, 249);
@@ -129,7 +129,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnİptal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnİptal.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnİptal.Location = new System.Drawing.Point(1115, 425);
-            this.btnİptal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnİptal.Margin = new System.Windows.Forms.Padding(4);
             this.btnİptal.Name = "btnİptal";
             this.btnİptal.Size = new System.Drawing.Size(165, 33);
             this.btnİptal.TabIndex = 43;
@@ -142,7 +142,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnGüncelle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnGüncelle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnGüncelle.Location = new System.Drawing.Point(711, 425);
-            this.btnGüncelle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnGüncelle.Margin = new System.Windows.Forms.Padding(4);
             this.btnGüncelle.Name = "btnGüncelle";
             this.btnGüncelle.Size = new System.Drawing.Size(165, 33);
             this.btnGüncelle.TabIndex = 42;
@@ -153,7 +153,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // txtOKulNo
             // 
             this.txtOKulNo.Location = new System.Drawing.Point(244, 103);
-            this.txtOKulNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtOKulNo.Margin = new System.Windows.Forms.Padding(4);
             this.txtOKulNo.Multiline = true;
             this.txtOKulNo.Name = "txtOKulNo";
             this.txtOKulNo.Size = new System.Drawing.Size(145, 29);
@@ -178,7 +178,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             "Kadın",
             "Erkek"});
             this.comboBox1.Location = new System.Drawing.Point(244, 348);
-            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(145, 24);
             this.comboBox1.TabIndex = 39;
@@ -186,7 +186,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // txtMail
             // 
             this.txtMail.Location = new System.Drawing.Point(244, 299);
-            this.txtMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtMail.Margin = new System.Windows.Forms.Padding(4);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
             this.txtMail.Size = new System.Drawing.Size(145, 29);
@@ -195,7 +195,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // txtTelefon
             // 
             this.txtTelefon.Location = new System.Drawing.Point(244, 250);
-            this.txtTelefon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtTelefon.Margin = new System.Windows.Forms.Padding(4);
             this.txtTelefon.Multiline = true;
             this.txtTelefon.Name = "txtTelefon";
             this.txtTelefon.Size = new System.Drawing.Size(145, 29);
@@ -204,7 +204,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // txtSoyad
             // 
             this.txtSoyad.Location = new System.Drawing.Point(244, 201);
-            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4);
             this.txtSoyad.Multiline = true;
             this.txtSoyad.Name = "txtSoyad";
             this.txtSoyad.Size = new System.Drawing.Size(145, 29);
@@ -213,7 +213,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             // txtAd
             // 
             this.txtAd.Location = new System.Drawing.Point(244, 152);
-            this.txtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(4);
             this.txtAd.Multiline = true;
             this.txtAd.Name = "txtAd";
             this.txtAd.Size = new System.Drawing.Size(145, 29);
@@ -270,14 +270,14 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label1.Location = new System.Drawing.Point(33, 116);
             this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(145, 26);
+            this.label1.Size = new System.Drawing.Size(158, 26);
             this.label1.TabIndex = 30;
-            this.label1.Text = "Okul Numara:";
+            this.label1.Text = "Üye Numarası :";
             // 
             // txtOkulNoAra
             // 
             this.txtOkulNoAra.Location = new System.Drawing.Point(787, 65);
-            this.txtOkulNoAra.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.txtOkulNoAra.Margin = new System.Windows.Forms.Padding(4);
             this.txtOkulNoAra.Multiline = true;
             this.txtOkulNoAra.Name = "txtOkulNoAra";
             this.txtOkulNoAra.Size = new System.Drawing.Size(145, 29);
@@ -291,16 +291,16 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.label7.Location = new System.Drawing.Point(585, 71);
             this.label7.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(130, 24);
+            this.label7.Size = new System.Drawing.Size(123, 24);
             this.label7.TabIndex = 45;
-            this.label7.Text = "Okul No Ara:";
+            this.label7.Text = "Üye No Ara:";
             // 
             // btnSil
             // 
             this.btnSil.BackColor = System.Drawing.Color.LightCoral;
             this.btnSil.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSil.Location = new System.Drawing.Point(917, 425);
-            this.btnSil.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnSil.Margin = new System.Windows.Forms.Padding(4);
             this.btnSil.Name = "btnSil";
             this.btnSil.Size = new System.Drawing.Size(165, 33);
             this.btnSil.TabIndex = 46;
@@ -313,7 +313,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F);
             this.button1.Location = new System.Drawing.Point(499, 425);
-            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(165, 33);
             this.button1.TabIndex = 47;
@@ -346,7 +346,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.dataGridView1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "UyeListeleme_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "UyeListeleme_Form";

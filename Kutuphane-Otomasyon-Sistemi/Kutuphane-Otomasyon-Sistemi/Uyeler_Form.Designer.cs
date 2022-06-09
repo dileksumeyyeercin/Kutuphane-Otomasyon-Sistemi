@@ -48,19 +48,21 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // txtOKulNo
             // 
-            this.txtOKulNo.Location = new System.Drawing.Point(203, 42);
+            this.txtOKulNo.Location = new System.Drawing.Point(271, 52);
+            this.txtOKulNo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtOKulNo.Multiline = true;
             this.txtOKulNo.Name = "txtOKulNo";
-            this.txtOKulNo.Size = new System.Drawing.Size(151, 30);
+            this.txtOKulNo.Size = new System.Drawing.Size(200, 36);
             this.txtOKulNo.TabIndex = 27;
             // 
             // label6
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label6.Location = new System.Drawing.Point(58, 228);
+            this.label6.Location = new System.Drawing.Point(77, 281);
+            this.label6.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(72, 19);
+            this.label6.Size = new System.Drawing.Size(93, 26);
             this.label6.TabIndex = 26;
             this.label6.Text = "Cinsiyet:";
             // 
@@ -70,50 +72,56 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.comboBox1.Items.AddRange(new object[] {
             "Kadın",
             "Erkek"});
-            this.comboBox1.Location = new System.Drawing.Point(203, 229);
+            this.comboBox1.Location = new System.Drawing.Point(271, 282);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(151, 21);
+            this.comboBox1.Size = new System.Drawing.Size(200, 24);
             this.comboBox1.TabIndex = 25;
             // 
             // txtMail
             // 
-            this.txtMail.Location = new System.Drawing.Point(203, 192);
+            this.txtMail.Location = new System.Drawing.Point(271, 236);
+            this.txtMail.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtMail.Multiline = true;
             this.txtMail.Name = "txtMail";
-            this.txtMail.Size = new System.Drawing.Size(151, 30);
+            this.txtMail.Size = new System.Drawing.Size(200, 36);
             this.txtMail.TabIndex = 24;
             // 
             // txtTelefon
             // 
-            this.txtTelefon.Location = new System.Drawing.Point(203, 154);
+            this.txtTelefon.Location = new System.Drawing.Point(271, 190);
+            this.txtTelefon.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtTelefon.Multiline = true;
             this.txtTelefon.Name = "txtTelefon";
-            this.txtTelefon.Size = new System.Drawing.Size(151, 30);
+            this.txtTelefon.Size = new System.Drawing.Size(200, 36);
             this.txtTelefon.TabIndex = 23;
             // 
             // txtSoyad
             // 
-            this.txtSoyad.Location = new System.Drawing.Point(203, 117);
+            this.txtSoyad.Location = new System.Drawing.Point(271, 144);
+            this.txtSoyad.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtSoyad.Multiline = true;
             this.txtSoyad.Name = "txtSoyad";
-            this.txtSoyad.Size = new System.Drawing.Size(151, 30);
+            this.txtSoyad.Size = new System.Drawing.Size(200, 36);
             this.txtSoyad.TabIndex = 22;
             // 
             // txtAd
             // 
-            this.txtAd.Location = new System.Drawing.Point(203, 80);
+            this.txtAd.Location = new System.Drawing.Point(271, 98);
+            this.txtAd.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.txtAd.Multiline = true;
             this.txtAd.Name = "txtAd";
-            this.txtAd.Size = new System.Drawing.Size(151, 30);
+            this.txtAd.Size = new System.Drawing.Size(200, 36);
             this.txtAd.TabIndex = 21;
             // 
             // label5
             // 
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label5.Location = new System.Drawing.Point(58, 196);
+            this.label5.Location = new System.Drawing.Point(77, 241);
+            this.label5.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(64, 19);
+            this.label5.Size = new System.Drawing.Size(81, 26);
             this.label5.TabIndex = 20;
             this.label5.Text = "Eposta:";
             // 
@@ -121,9 +129,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label4.Location = new System.Drawing.Point(58, 160);
+            this.label4.Location = new System.Drawing.Point(77, 197);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(97, 19);
+            this.label4.Size = new System.Drawing.Size(123, 26);
             this.label4.TabIndex = 19;
             this.label4.Text = "Telefon No:";
             // 
@@ -131,9 +140,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label3.Location = new System.Drawing.Point(58, 124);
+            this.label3.Location = new System.Drawing.Point(77, 153);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(64, 19);
+            this.label3.Size = new System.Drawing.Size(81, 26);
             this.label3.TabIndex = 18;
             this.label3.Text = "Soyadı:";
             // 
@@ -141,9 +151,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label2.Location = new System.Drawing.Point(58, 89);
+            this.label2.Location = new System.Drawing.Point(77, 110);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(38, 19);
+            this.label2.Size = new System.Drawing.Size(50, 26);
             this.label2.TabIndex = 17;
             this.label2.Text = "Adı:";
             // 
@@ -151,19 +162,21 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.label1.Location = new System.Drawing.Point(58, 50);
+            this.label1.Location = new System.Drawing.Point(77, 62);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(114, 19);
+            this.label1.Size = new System.Drawing.Size(152, 26);
             this.label1.TabIndex = 16;
-            this.label1.Text = "Okul Numara:";
+            this.label1.Text = "Üye Numarası:";
             // 
             // btnEkle
             // 
             this.btnEkle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnEkle.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnEkle.Location = new System.Drawing.Point(223, 309);
+            this.btnEkle.Location = new System.Drawing.Point(297, 380);
+            this.btnEkle.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnEkle.Name = "btnEkle";
-            this.btnEkle.Size = new System.Drawing.Size(75, 29);
+            this.btnEkle.Size = new System.Drawing.Size(100, 36);
             this.btnEkle.TabIndex = 28;
             this.btnEkle.Text = "Ekle";
             this.btnEkle.UseVisualStyleBackColor = false;
@@ -173,9 +186,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnİptal.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
             this.btnİptal.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnİptal.Location = new System.Drawing.Point(324, 309);
+            this.btnİptal.Location = new System.Drawing.Point(432, 380);
+            this.btnİptal.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnİptal.Name = "btnİptal";
-            this.btnİptal.Size = new System.Drawing.Size(75, 29);
+            this.btnİptal.Size = new System.Drawing.Size(100, 36);
             this.btnİptal.TabIndex = 29;
             this.btnİptal.Text = "İptal";
             this.btnİptal.UseVisualStyleBackColor = false;
@@ -185,9 +199,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             this.btnUyeListeleme.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(103)))), ((int)(((byte)(155)))), ((int)(((byte)(241)))));
             this.btnUyeListeleme.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
-            this.btnUyeListeleme.Location = new System.Drawing.Point(241, 359);
+            this.btnUyeListeleme.Location = new System.Drawing.Point(321, 442);
+            this.btnUyeListeleme.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnUyeListeleme.Name = "btnUyeListeleme";
-            this.btnUyeListeleme.Size = new System.Drawing.Size(138, 29);
+            this.btnUyeListeleme.Size = new System.Drawing.Size(184, 36);
             this.btnUyeListeleme.TabIndex = 30;
             this.btnUyeListeleme.Text = "Üye Listeleme";
             this.btnUyeListeleme.UseVisualStyleBackColor = false;
@@ -195,10 +210,10 @@ namespace Kutuphane_Otomasyon_Sistemi
             // 
             // Uyeler_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
-            this.ClientSize = new System.Drawing.Size(486, 473);
+            this.ClientSize = new System.Drawing.Size(648, 582);
             this.Controls.Add(this.btnUyeListeleme);
             this.Controls.Add(this.btnİptal);
             this.Controls.Add(this.btnEkle);
@@ -214,6 +229,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Uyeler_Form";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Uyeler_Form";

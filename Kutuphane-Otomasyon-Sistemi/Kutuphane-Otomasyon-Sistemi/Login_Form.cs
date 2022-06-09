@@ -21,7 +21,7 @@ namespace Kutuphane_Otomasyon_Sistemi
         {
             string gelenAd = txtKullaniciAdi.Text;
             string gelenSifre = txtSifre.Text;
-            if (gelenAd.Equals("admin") && gelenSifre.Equals("123"))
+            if (gelenAd.Equals("admin") && gelenSifre.Equals("123") || gelenAd.Equals("dileksumeyyee") && gelenSifre.Equals("1234"))
             {
                 Anasayfa_Form anasayfaForm = new Anasayfa_Form();
                 anasayfaForm.ShowDialog();

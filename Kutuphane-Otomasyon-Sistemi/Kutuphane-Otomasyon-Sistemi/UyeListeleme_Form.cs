@@ -61,8 +61,8 @@ namespace Kutuphane_Otomasyon_Sistemi
             baglanti.Open();
             MySqlCommand komut = new MySqlCommand("delete from uyeler where okul_no=@okul_no", baglanti);
             komut.Parameters.AddWithValue("@okul_no", dataGridView1.CurrentRow.Cells[0].Value.ToString());
+            komut.ExecuteNonQuery();
             baglanti.Close();
-            
             daset.Tables["uyeler"].Clear();
             uyelistele();
             foreach (Control item in Controls)
@@ -72,20 +72,7 @@ namespace Kutuphane_Otomasyon_Sistemi
                     item.Text = "";
                 }
             }
-            try
-            {
-                komut.ExecuteNonQuery();
-                MessageBox.Show("Üye Silme İşlemi Başarılı", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
-
-
-            }
-            catch (Exception msg)
-            {
-
-                MessageBox.Show("Üye Silme İşlemi Başarısız\n" + msg.Message); 
-            }
           
-
         }
         private void uyelistele()
         {
