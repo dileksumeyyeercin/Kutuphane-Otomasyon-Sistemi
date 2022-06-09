@@ -1,6 +1,6 @@
 # Kutuphane-Otomasyon-Sistemi
  
- Veri tabanı yönetim sistemleri ve nesne yönelimli programlama derslerinin ortak proje ödevi. Amaç okulumuz personellerine faydalı olacak, kütüphanemizde kullanılabilecek bir kütüphane otomasyon sistemi oluşturmak.
+ Veri tabanı yönetim sistemleri ve nesne yönelimli programlama derslerinin ortak proje ödevi. Amaç okulumuz personellerine faydalı olacak, kütüphanemizde kullanılabilecek bir kütüphane otomasyon sistemi oluşturmak. Projemizin içerisinde kitap kısmı, üyeler kısmı, personel kısmı, istatistikler kısmı, yazarlar kısmı, kategoriler kısmı, kaybolan kitaplar kısmı ve emanet işlemleri bulunmaktadır.
 ## UML DİYAGRAMI 
 
 ![Untitled Diagram drawio](https://user-images.githubusercontent.com/77639600/163362349-ea3e27df-cb01-42ea-84ef-999ffc6ef48e.png)
