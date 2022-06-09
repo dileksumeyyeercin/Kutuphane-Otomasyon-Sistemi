@@ -82,5 +82,11 @@ namespace Kutuphane_Otomasyon_Sistemi
             YasaklananKitaplar_Form yasaklananKitaplar = new YasaklananKitaplar_Form();
             yasaklananKitaplar.ShowDialog();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Ogrenciisleri isler = new Ogrenciisleri();
+            isler.ShowDialog();
+        }
     }
 }

@@ -41,6 +41,7 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.btnKaybolan = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
             // 
@@ -194,12 +195,23 @@ namespace Kutuphane_Otomasyon_Sistemi
             this.btnKaybolan.UseVisualStyleBackColor = true;
             this.btnKaybolan.Click += new System.EventHandler(this.btnKaybolan_Click);
             // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(876, 48);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(106, 67);
+            this.button3.TabIndex = 28;
+            this.button3.Text = "button3";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Anasayfa_Form
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 17F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(220)))), ((int)(((byte)(232)))), ((int)(((byte)(254)))));
             this.ClientSize = new System.Drawing.Size(1116, 943);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.btnKaybolan);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.button1);
@@ -236,5 +248,6 @@ namespace Kutuphane_Otomasyon_Sistemi
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.Button btnKaybolan;
+        private System.Windows.Forms.Button button3;
     }
 }
